@@ -1,4 +1,85 @@
-.App {
+.header-text {
+  color: white;
+  margin-bottom: 50px;
+  font-size: 70px;
+  line-height: 1.5;
+  font-family: 'barlowsemibold';
+  text-align: center;
+  margin-top: 50px;
+  font-weight: 400;
+}
+
+.background-image {
+  background: url("https://beam.health/wp-content/uploads/2021/11/blue-to-purple-bg-header.gif");
+  background-repeat: no-repeat;
+}
+
+.beam-health-header-text {
+  line-height: 1.5;
+  font-size: 30px;
+  color: white;
+  padding-left: 50px;
+  font-family: 'barlow';
+}
+
+.beam-health-header-text div {
+  margin-bottom: 20px;
+}
+
+.beam-health-header-text div {
+  font-family: 'barlowlight';
+}
+
+.beam-health-header-text div:nth-child(2) {
+  font-family: 'barlowsemibold';
+}
+
+.blue-background {
+  background: #CBEDFD;
+  border-radius: 15px;
+  padding: 15px;
+  cursor: default;
+  margin-bottom: 15px;
+}
+
+.blue-background div:nth-child(1) {
+  color: #867DE2;
+  font-family: 'barlowsemibold';
+}
+
+.section2-text div {
+  margin: 10px 0px;
+}
+
+.section2 {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.image {
+  width: 100%;
+}
+
+.video {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.section2-text {
+  font-size: 30px;
+  line-height: 37.5px;
+  color: #32374C;
+  font-family: 'barlowsemibold', sans-serif;
+}
+
+.section3-background {
+  background: linear-gradient(135deg,rgb(89,206,255) 0%,rgb(89,206,255) 0%,rgb(135,70,176) 100%,rgb(134,125,226) 100%);
+  margin-left: -5%;
+  margin-right: -5%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +116,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
