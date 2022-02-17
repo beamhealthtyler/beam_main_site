@@ -54,6 +54,7 @@ button{
 .background-image {
   background: url("https://beam.health/wp-content/uploads/2021/11/blue-to-purple-bg-header.gif");
   background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .beam-health-header-text {
@@ -103,8 +104,6 @@ button{
   text-align: center;
   font-size: 70px;
   font-weight: 600;
-  width: 50%;
-  margin-left: 25%;
   margin-top: 100px;
 }
 
