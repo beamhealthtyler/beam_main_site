@@ -1,12 +1,54 @@
+@import url('http://fonts.googleapis.com/css?family=Barlow');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300;600&display=swap');
+
+* {
+  font-family: 'barlow';
+}
+
+button{
+  background-color: #32374C !important;
+  font-weight: 600 !important;
+  padding: 10px 20px !important;
+  font-size: 20px !important;
+}
+
 .header-text {
   color: white;
   margin-bottom: 50px;
   font-size: 70px;
   line-height: 1.5;
-  font-family: 'barlowsemibold';
   text-align: center;
   margin-top: 50px;
-  font-weight: 400;
+  font-weight: 900;
+}
+
+.section2-image {
+  margin-top: 150px
+}
+
+.mascot-text div:nth-child(1) {
+  color: white;
+  font-weight: 600;
+  font-size: 30px
+}
+
+.mascot-text div:nth-child(2) {
+  color: white;
+  font-weight: 200;
+  margin: 20px 0px;
+  /* font-size: 25px */
+}
+
+.section2-text div {
+  font-size: 25px;
+  line-height: 1.5;
+  font-weight: 600;
+}
+
+.section2-header {
+  font-size: 45px !important;
+  line-height: 1.5 !important;
+  font-weight: 600 !important;
 }
 
 .background-image {
@@ -26,13 +68,19 @@
   margin-bottom: 20px;
 }
 
-.beam-health-header-text div {
+/* .beam-health-header-text div {
   font-family: 'barlowlight';
-}
+} */
 
 .beam-health-header-text div:nth-child(2) {
-  font-family: 'barlowsemibold';
+  font-weight: 600;
 }
+
+.mascot-text {
+  font-size: 30px;
+  /* font-family: 'barlowsemibold'; */
+  padding-top: 200px;
+  }
 
 .blue-background {
   background: #CBEDFD;
@@ -44,11 +92,25 @@
 
 .blue-background div:nth-child(1) {
   color: #867DE2;
-  font-family: 'barlowsemibold';
+  /* font-family: 'barlowsemibold'; */
+}
+
+.blue-background > div:nth-child(2) {
+  font-weight: 400;
+}
+
+.craft-and-measure {
+  text-align: center;
+  font-size: 70px;
+  font-weight: 600;
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 100px;
 }
 
 .section2-text div {
   margin: 10px 0px;
+  width: 95%;
 }
 
 .section2 {
@@ -69,7 +131,7 @@
   font-size: 30px;
   line-height: 37.5px;
   color: #32374C;
-  font-family: 'barlowsemibold', sans-serif;
+  /* font-family: 'barlowsemibold', sans-serif; */
 }
 
 .section3-background {
@@ -79,41 +141,3 @@
   padding-left: 5%;
   padding-right: 5%;
 }
-/* .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */
