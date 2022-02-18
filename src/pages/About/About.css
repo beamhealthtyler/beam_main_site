@@ -1,0 +1,76 @@
+@import url('http://fonts.googleapis.com/css?family=Barlow');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300;600&display=swap');
+
+* {
+  font-family: 'barlow';
+}
+
+.background-image-about {
+  background-image: url(https://beam.health/wp-content/uploads/2022/01/blug-gradient-bg.png);
+  background-repeat: no-repeat;
+  background-position-x: 100%;
+  background-size: 500px;
+}
+
+.image1 {
+  width: 100%;
+}
+
+.title {
+  font-family: 'barlow';
+  font-size: 70px;
+  font-weight: 600;
+}
+
+.section1 {
+  padding-top: 100px;
+}
+
+.section2-title {
+  font-size: 45px;
+  color: #32374C;
+  margin-bottom: 15px;
+}
+
+button{
+  background-color: #32374C !important;
+  font-weight: 600 !important;
+  padding: 10px 20px !important;
+  font-size: 20px !important;
+}
+
+.section2-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 8px !important;
+  padding-top: 8%;
+  padding-right: 8%;
+  padding-left: 8%;
+  background: url(https://beam.health/wp-content/uploads/2021/12/Rectangle-541.png) no-repeat;
+  background-position-x: 100%;
+}
+
+.section2-subtext-container > p:nth-child(1) {
+  font-size: 25px;
+  line-height: 40px;
+  margin-top: 25px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.section2-subtext-container > p:nth-child(2) {
+  font-size: 20px;
+  margin-top: 15px;
+  color: #ACACAC;
+  font-weight: 600;
+  text-align: center;
+}
+
+.section2-subtext-container > p:nth-child(3) {
+  margin-top: 25px;
+  color: #3C40C7;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+}
