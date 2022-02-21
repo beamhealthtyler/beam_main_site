@@ -1,7 +1,5 @@
-import '../Styles/Main.css';
-import { Helmet } from "react-helmet";
 
-function Home() {
+function Solutions() {
   return (
     <div className="background-image">
       <div className='container'>
@@ -79,4 +77,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Solutions;

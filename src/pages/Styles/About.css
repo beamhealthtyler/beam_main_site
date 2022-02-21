@@ -5,11 +5,43 @@
   font-family: 'barlow';
 }
 
+button{
+  background-color: #32374C !important;
+  font-weight: 600 !important;
+  padding: 10px 20px !important;
+  font-size: 20px !important;
+}
+
 .background-image-about {
   background-image: url(https://beam.health/wp-content/uploads/2022/01/blug-gradient-bg.png);
   background-repeat: no-repeat;
   background-position-x: 100%;
   background-size: 500px;
+}
+
+.section3 {
+  background: linear-gradient(135deg,rgb(89,206,255) 0%,rgb(134,125,226) 100%);
+}
+
+.section3 > h1 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 70px;
+  color: white;
+  margin-top: 50px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.button-container button {
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 25px;
+  margin-bottom: 50px;
+  padding: 10px 60px !important;
 }
 
 .image1 {
@@ -30,13 +62,6 @@
   font-size: 45px;
   color: #32374C;
   margin-bottom: 15px;
-}
-
-button{
-  background-color: #32374C !important;
-  font-weight: 600 !important;
-  padding: 10px 20px !important;
-  font-size: 20px !important;
 }
 
 .section2-image {
