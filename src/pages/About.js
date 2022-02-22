@@ -1,4 +1,4 @@
-import '../Styles/About.css';
+import './Styles/About.css';
 import { Helmet } from "react-helmet";
 
 function Home() {
