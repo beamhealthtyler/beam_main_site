@@ -1,18 +1,18 @@
-
+import './Styles/Solutions.css'
 
 function Solutions() {
   return (
     <>
+    <div className='container'>
       <div className='row'>
         <div className='col-md-6 col-sm-0'>
-          <div className="beam-health-header-text">
-            <div>Whether you are a new practice trying to acquire patients or a healthcare enterprise with thousands of clinicians, you need a fail-proof way to see patients remotely.</div>
-            <div>You can use Beam’s telehealth functionality for free, right now! Try your own mock telehealth visit below.</div>
+          <div>
+            <div className="solutions-section1-header">A digital health platform designed for innovation</div>
             <button type="button" className="btn btn-secondary">Try Beam Free</button>
           </div>
         </div>
         <div className='col-md-6 col-sm-12'>
-          <video className='video' autoPlay loop muted src="https://beam.health/wp-content/uploads/2021/11/ezgif.com-gif-maker-1.mp4" playsInline></video>
+          <img className='solutions-image-1' src="https://beam.health/wp-content/uploads/2021/11/group-video-enterprise-landing-page.png"></img>
         </div>
       </div>
 
@@ -34,6 +34,7 @@ function Solutions() {
           </div>
         </div>
 
+      </div>
       </div>
 
 
