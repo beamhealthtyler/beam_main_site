@@ -1,0 +1,58 @@
+
+.blueButton {
+  background-color: #59CEFF !important;
+  color: white;
+  border-radius: 8px;
+  border: none;
+  padding: 15px 30px !important;
+}
+
+.section {
+  padding: 100px 0px
+}
+
+.section2 {
+  padding: 50px 0px
+}
+
+.banner {
+  font-size: 30px;
+  color: white;
+  font-weight: 700;
+  text-align: center;
+}
+
+.text {
+  font-size: 25px;
+  line-height: 1.5;
+}
+
+.bannerButton {
+  margin: 0 auto;
+  display: block;
+  background-color: white !important;
+  color: blue;
+  border-radius: 8px;
+  border: none;
+  padding: 15px 30px !important;
+  margin-top: 25px;
+}
+
+.sectionNoContainer {
+  padding: 100px 75px;
+}
+
+.backgroundImage {
+  background: linear-gradient(135deg,rgb(89,206,255) 0%,rgb(134,125,226) 100%);
+}
+
+.image{
+  width: 100%;
+}
+
+.subTitle {
+  font-family: 'barlow';
+  font-size: 45px;
+  line-height: 1.5;
+  font-weight: 600;
+}
