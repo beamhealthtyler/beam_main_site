@@ -4,7 +4,6 @@ const OnlinePayments = () => {
   return (
     <>
       <div className={Style.section1}>
-      {console.log(Style)}
         <div className={"row"} >
           <div className="col-md-6">
             <h1 className='title'>Collect More Payments Online</h1>
