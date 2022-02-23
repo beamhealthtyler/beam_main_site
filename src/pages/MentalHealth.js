@@ -34,7 +34,7 @@ const MentalHealth = () => {
       <div className={'row ' + Style.section2}>
         <div className='col-12'>
           <div className={Style.banner}>For a limited time, Beam is offering free Telehealth to mental health clinics. Try the platform now!</div>
-          <button className={Style.bannerButton + '' + Style.whiteButton}>Try Live Demo</button>
+          <button className={Style.bannerButton + ' ' + Style.whiteButton}>Try Live Demo</button>
         </div>
       </div>
     </div>
