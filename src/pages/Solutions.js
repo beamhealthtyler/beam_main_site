@@ -1,4 +1,4 @@
-import './Styles/Solutions.css'
+import Style from './Styles/Solutions.module.css'
 
 function Solutions() {
   return (
@@ -7,7 +7,7 @@ function Solutions() {
       <div className='row'>
         <div className='col-md-6 col-sm-0'>
           <div>
-            <div className="solutions-section1-header">A digital health platform designed for innovation</div>
+            <div className={Style.solutionsSection1Header}>A digital health platform designed for innovation</div>
             <button type="button" className="btn btn-secondary">Try Beam Free</button>
           </div>
         </div>
