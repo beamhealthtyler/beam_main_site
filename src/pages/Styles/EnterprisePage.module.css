@@ -1,0 +1,11 @@
+.section {
+  padding: 100px 0px;
+}
+
+.section2Subsection {
+  padding-top: 50px;
+}
+
+.backgroundImage {
+  background: linear-gradient(135deg,rgb(89,206,255) 0%,rgb(134,125,226) 100%);
+}

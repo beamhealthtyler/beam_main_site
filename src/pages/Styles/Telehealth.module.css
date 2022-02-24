@@ -1,0 +1,29 @@
+.section {
+  padding: 100px 0px;
+}
+
+.backgroundImage {
+  background: linear-gradient(135deg,rgb(89,206,255) 0%,rgb(134,125,226) 100%);
+}
+
+.section2 {
+  padding: 50px 0px
+}
+
+.banner {
+  font-size: 30px;
+  color: white;
+  font-weight: 700;
+  text-align: center;
+}
+
+.bannerButton {
+  margin: 0 auto;
+  display: block;
+  background-color: white !important;
+  color: blue;
+  border-radius: 8px;
+  border: none;
+  padding: 15px 30px !important;
+  margin-top: 25px;
+}

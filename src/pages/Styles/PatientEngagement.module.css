@@ -1,0 +1,41 @@
+.section {
+  padding: 100px 0px;
+}
+
+.title {
+  font-size: 70px;
+  font-weight: 600;
+}
+
+.subTitle {
+  font-size: 45px;
+  font-weight: 600;
+  margin-top: 50px;
+}
+
+.text {
+  font-size: 25px;
+}
+
+.backgroundImage {
+  background: linear-gradient(135deg,rgb(89,206,255) 0%,rgb(134,125,226) 100%);
+}
+
+.section1Img{
+  width: 100%;
+}
+
+.button {
+  height: 60px;
+  width: 150px;
+  font-size: 1.2rem;
+  background-color: #32374C;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  font-family: 'barlowregular';
+}
+
+.textContainer {
+  padding-left: 100px;
+}
