@@ -40,50 +40,6 @@ const ForClinics = () => {
             <p  className={Style.textsubtitle}>Engineered for flexibility.</p>
             <p  className={Style.textsubtitle2}>We understand that each practice has unique needs. With custom patient promotional services, workflows, and landing pages, we’ve got you covered. Over 35 specialties are active on Beam, including:</p>
           </div>
-          <ul className={Style.gridList}>
-            <li>Cardiology</li>
-            <li>Oncology</li>
-            <li>Diabetes</li>
-            <li>Care Diet &amp; Nutrition</li>
-            <li>Weight Management</li>
-            <li>Psychiatry</li>
-            <li>Chiropractic</li>
-            <li>Dermatology</li>
-            <li>Diabetes Care</li>
-            <li>Eye Clinics</li>
-            <li>Family Medicine</li>
-            <li>OBGYN</li>
-            <li>Orthopedics</li>
-            <li>Pediatrics</li>
-            <li>Physical Therapists</li>
-            <li>Plastic Surgeon</li>
-            <li>Podiatrists</li>
-            <li>Spine</li>
-            <li>Dentists</li>
-            <li>Urgent Care</li>
-            <li>Pharmacy</li>
-            <li>Nephorology</li>
-            <li>Rheumatology</li>
-            <li>Urology</li>
-            <li>Pulmonology</li>
-            <li>ENT</li>
-            <li>Allergy</li>
-            <li>Pain Management</li>
-            <li>Fertility</li>
-            <li>Geriatrics</li>
-            <li>Psychiatry</li>
-            <li>Psychology</li>
-            <li>Behavioral Health</li>
-            <li>Addiction Services</li>
-            <li>Fertility</li>
-            <li>Surgery</li>
-            <li>Men’s Health</li>
-            <li>Women’s Health</li>
-            <li>Wellness</li>
-            <li>Holistic</li>
-            <li>Functional Medicine</li>
-            <li>Medical Marijuana</li>
-          </ul>
         </div>
       </div>
 
