@@ -1,0 +1,30 @@
+.section {
+  padding: 100px 0px;
+}
+
+.section2 {
+  margin-top: 400px;
+}
+
+.title {
+  font-size: 70px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.subtitle {
+  /* padding-left: 20%;
+  padding-right: 20%; */
+  font-size: 25px;
+  text-align: center;
+}
+
+.background {
+  background: url(https://beam.health/wp-content/themes/beam-health/images/svg/hero-blog-ovr.svg);
+  background-repeat: no-repeat;
+  background-position-x: right;
+}
+
+.img {
+  width: 75%;
+}

@@ -3,7 +3,7 @@ import { Outlet, Link } from "react-router-dom";
 const Layout = () => {
   return (
     <>
-      <nav>
+    <nav style={{display: "flex"}}>
         <ul>
           <li>
             <Link to="/">Home</Link>
@@ -29,6 +29,8 @@ const Layout = () => {
           <li>
             <Link to="/patient-intake">Patient Intake</Link>
           </li>
+        </ul>
+        <ul>
           <li>
             <Link to="/enterprise-page">Enterprise Page</Link>
           </li>
@@ -41,6 +43,8 @@ const Layout = () => {
           <li>
             <Link to="/patients">Patients</Link>
           </li>
+        </ul>
+        <ul>
           <li>
             <Link to="/blogs">Blogs</Link>
           </li>
