@@ -20,7 +20,7 @@ function Home() {
             <div className="beam-health-header-text">
               <div>Whether you are a new practice trying to acquire patients or a healthcare enterprise with thousands of clinicians, you need a fail-proof way to see patients remotely.</div>
               <div>You can use Beam’s telehealth functionality for free, right now! Try your own mock telehealth visit below.</div>
-              <button type="button" className="btn btn-secondary">Try Beam Free</button>
+              <button type="button" className="btn btn-secondary homeButton">Try Beam Free</button>
             </div>
           </div>
         </div>
@@ -36,7 +36,7 @@ function Home() {
               <div>HD, HIPPA Compliant Telehealth</div>
               <div>Scalable Analytics</div>
               <div>Intuitive Scheduling</div>
-              <button type="button" className="btn btn-secondary">Learn More</button>
+              <button type="button" className="btn btn-secondary homeButton">Learn More</button>
             </div>
           </div>
           <div className='col-md-6 col-sm-12'>
@@ -53,7 +53,7 @@ function Home() {
             <div className='mascot-text'>
               <div>How much more can you make with Beam?</div>
               <div>Find out in 2 minutes how much you lost due to your patient collections process</div>
-              <button type="button" className="btn btn-secondary">See Your Savings</button>
+              <button type="button" className="btn btn-secondary homeButton">See Your Savings</button>
             </div>
           </div>
           <div className='col-md-6 col-sm-12'>
