@@ -11,8 +11,8 @@ const PatientEngagement = () => {
           </div>
           <div className="col-md-6">
             <h1 className={Style.title}>Total Patient Engagement with Beam Health</h1>
-            <p>Upgrade your traditional practice by opening an online storefront</p>
-            <ul>
+            <p className={Style.subtitle}>Upgrade your traditional practice by opening an online storefront</p>
+            <ul className={Style.list}>
               <li>Drive more revenue</li>
               <li>Grow your practice</li>
               <li>Save staff time</li>
