@@ -27,30 +27,30 @@ export default function App() {
   return (
         <BrowserRouter>
           <Routes>
-           <Route path="/" element={<Layout />}>
-             <Route index element={<Home />} />
-             <Route path="home" element={<Home />} />
-             <Route path="about" element={<About />} />
-             <Route path="solutions" element={<Solutions />} />
-             <Route path="mentalhealth" element={<MentalHealth />} />
-             <Route path="patientengagement" element={<PatientEngagement />} />
-             <Route path="telehealth-landing-page" element={<TelehealthLandingPage />} />
-             <Route path="online-payments" element={<OnlinePayments />} />
-             <Route path="patient-intake" element={<PatientIntake />} />
-             <Route path="enterprise-page" element={<EnterprisePage />} />
-             <Route path="for-clinics" element={<ForClinics />} />
-             <Route path="affiliate-partnerships-reseller-program" element={<AffiliatePartnershipsResellerProgram />} />
-             <Route path="patients" element={<Patients />} />
-             <Route path="ehr-integrations" element={<EHR />} />
-             <Route path="case-studies" element={<CaseStudies />} />
-             <Route path="state-telemedicine-policies" element={<StateTelemedicinePolicies />} />
-             <Route path="telemedicine-reibursement" element={<TelemedicineReibursement />} />
-             <Route path="beam-vs-others" element={<BeamVsOthers />} />
-             <Route path="blogs" element={<Blogs />} />
-             <Route path="faq" element={<FAQ />} />
-             <Route path="*" element={<NoPage />} />
-           </Route>
-         </Routes>
+             <Route path="/" element={<Layout />}>
+               <Route index element={<Home />} />
+               <Route path="home" element={<Home />} />
+               <Route path="about" element={<About />} />
+               <Route path="solutions" element={<Solutions />} />
+               <Route path="mentalhealth" element={<MentalHealth />} />
+               <Route path="patientengagement" element={<PatientEngagement />} />
+               <Route path="telehealth-landing-page" element={<TelehealthLandingPage />} />
+               <Route path="online-payments" element={<OnlinePayments />} />
+               <Route path="patient-intake" element={<PatientIntake />} />
+               <Route path="enterprise-page" element={<EnterprisePage />} />
+               <Route path="for-clinics" element={<ForClinics />} />
+               <Route path="affiliate-partnerships-reseller-program" element={<AffiliatePartnershipsResellerProgram />} />
+               <Route path="patients" element={<Patients />} />
+               <Route path="ehr-integrations" element={<EHR />} />
+               <Route path="case-studies" element={<CaseStudies />} />
+               <Route path="state-telemedicine-policies" element={<StateTelemedicinePolicies />} />
+               <Route path="telemedicine-reibursement" element={<TelemedicineReibursement />} />
+               <Route path="beam-vs-others" element={<BeamVsOthers />} />
+               <Route path="blogs" element={<Blogs />} />
+               <Route path="faq" element={<FAQ />} />
+               <Route path="*" element={<NoPage />} />
+             </Route>
+           </Routes>
          </BrowserRouter>
   );
 }
