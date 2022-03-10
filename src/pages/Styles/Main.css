@@ -139,3 +139,49 @@ button{
   margin-right: -5%;
   padding-left: 100px;
 }
+
+@media only screen and (max-width: 800px) {
+  .background-image {
+    background: url("https://beam.health/wp-content/uploads/2021/11/blue-to-purple-bg-header.gif");
+    background-repeat: no-repeat;
+  }
+
+  .beam-health-header-text div {
+    color: black;
+    text-align: center;
+  }
+
+  .beam-health-header-text {
+    padding: 0px 25px;
+  }
+
+  .video {
+    padding: 0px 25px;
+  }
+
+  .homeButton {
+    width: 100%;
+  }
+
+  .section2-text {
+    padding: 0px 25px;
+    text-align: center;
+  }
+
+  .section2-text div {
+    width: 100%;
+  }
+
+  .mascot-text {
+    padding-top: 50px;
+  }
+
+  .section3-background {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .mascot-text {
+    text-align: center;
+  }
+}

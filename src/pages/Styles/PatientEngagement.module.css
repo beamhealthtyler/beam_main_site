@@ -39,3 +39,29 @@
 .textContainer {
   padding-left: 100px;
 }
+
+@media only screen and (max-width: 800px) {
+  .title {
+    font-size: 45px;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  .subtitle {
+    text-align: center;
+  }
+
+  .list {
+    text-align: center;
+  }
+
+  .textContainer {
+    padding: 0px 25px;
+    text-align: center;
+  }
+
+  .button{
+    width: 100%;
+  }
+
+}

@@ -24,3 +24,23 @@
 .bankingText p {
   text-align: center;
 }
+
+@media only screen and (max-width: 800px) {
+  .titleMentalHealth {
+    text-align: center;
+    font-size: 45px;
+  }
+
+  .section1 {
+    padding: 100px 0px;
+    padding-left: 0px;
+  }
+
+  .image {
+    padding-left: 50px;
+  }
+
+  .subtext {
+    text-align: center;
+  }
+}

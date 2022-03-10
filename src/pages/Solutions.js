@@ -29,7 +29,7 @@ function Solutions() {
           </div>
           <div>Intelligent Group Therapy Controls</div>
           <div>Integrated note taking</div>
-            <button type="button" className="btn btn-secondary">Learn More</button>
+            <button type="button" className={"btn btn-secondary " + Style.solutionsButton}>Learn More</button>
           </div>
         </div>
 
@@ -47,7 +47,7 @@ function Solutions() {
             </div>
             <div>Intelligent Group Therapy Controls</div>
             <div>Integrated note taking</div>
-            <button type="button" className="btn btn-secondary">Learn More</button>
+            <button type="button" className={"btn btn-secondary " + Style.solutionsButton}>Learn More</button>
           </div>
         </div>
         <div className='col-md-6 col-sm-12'>
@@ -72,7 +72,7 @@ function Solutions() {
             <div>HD, HIPPA Compliant Telehealth</div>
             <div>Scalable Analytics</div>
             <div>Intuitive Scheduling</div>
-            <button type="button" className="btn btn-secondary">Learn More</button>
+            <button type="button" className={"btn btn-secondary " + Style.solutionsButton}>Learn More</button>
           </div>
         </div>
       </div>
@@ -89,7 +89,7 @@ function Solutions() {
             </div>
             <div>Intelligent Group Therapy Controls</div>
             <div>Integrated note taking</div>
-            <button type="button" className="btn btn-secondary">Learn More</button>
+            <button type="button" className={"btn btn-secondary " + Style.solutionsButton}>Learn More</button>
           </div>
         </div>
         <div className='col-md-6 col-sm-12'>

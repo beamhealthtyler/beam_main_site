@@ -1,0 +1,13 @@
+.section {
+  padding: 100px 0px;
+}
+
+.section2 {
+  padding: 100px 0px;
+  margin-top: 100px;
+}
+
+.backgroundImg {
+  background: url(https://beam.health/wp-content/uploads/2021/12/image-6.png) no-repeat;
+  background-position-x: right;
+}
