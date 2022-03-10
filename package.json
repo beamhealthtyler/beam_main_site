@@ -1,6 +1,6 @@
 {
   "name": "beam_main_website",
-  "homepage": "*",
+  "homepage": "https://beamhealthtyler.github.io/beam_main_site/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
