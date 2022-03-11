@@ -1,5 +1,5 @@
 import ReactDOM from "react-dom";
-import { BrowserRouter, HashRouter, Routes, Route } from "react-router-dom";
+import { Switch, BrowserRouter, HashRouter, Routes, Route } from "react-router-dom";
 import Layout from "./pages/Layout";
 import Home from "./pages/Home.js";
 import About from "./pages/About.js";
@@ -25,7 +25,6 @@ import NoPage from "./pages/NoPage";
 
 export default function App() {
   return (
-        <HashRouter>
           <Routes>
              <Route path="/" element={<Layout />}>
                <Route index element={<Home />} />
@@ -51,6 +50,5 @@ export default function App() {
                <Route path="*" element={<NoPage />} />
              </Route>
            </Routes>
-         </HashRouter>
   );
 }

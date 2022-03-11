@@ -1,7 +1,8 @@
-import { Outlet, Link } from "react-router-dom";
+import { Outlet, Link, useNavigate } from "react-router-dom";
 import { Navbar, Container, NavDropdown, Nav} from 'react-bootstrap';
 
 const Layout = () => {
+  let navigate = useNavigate();
   return (
     <>
       <Navbar bg="light" expand="lg">
@@ -10,7 +11,10 @@ const Layout = () => {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link href="/about">About Us</Nav.Link>
+
+
+             <Nav.Link onClick={() => navigate("/about")}>About Us</Nav.Link>
+
               <Nav.Link href="/demo">Book a Demo</Nav.Link>
               <NavDropdown title="Solutions" id="basic-nav-dropdown">
                 <NavDropdown.Item href="/solutions">Solutions</NavDropdown.Item>
