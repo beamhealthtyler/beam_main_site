@@ -17,13 +17,13 @@ const PatientIntake = () => {
         </div>
       </div>
 
-      <div className={Style.section}>
+      <div className={Style.section2}>
         <div className="row" >
           <div className="col-md-6">
             <img className='image1' src="https://beam.health/wp-content/uploads/2021/12/widget-w-red-background.png"></img>
           </div>
           <div className="col-md-6">
-            <h1 className='title'>Paperless patient enrollment</h1>
+            <h1 className={Style.title}>Paperless patient enrollment</h1>
             <p>Upgrade your patient intake system and collect the info you need before they ever set foot in your office:</p>
             <ul>
               <li>Contact Info</li>
@@ -31,16 +31,16 @@ const PatientIntake = () => {
               <li>Medical History</li>
               <li>Preferred Payment Method</li>
             </ul>
-            <button>Learn More</button>
+              <button type="button" class="btn btn-secondary homeButton">Learn More</button>
           </div>
         </div>
       </div>
 
-      <div className={Style.backgroundImage + ' ' + Style.section}>
+      <div className={Style.backgroundImage + ' ' + Style.section2}>
         <div className='container'>
           <div className="row" >
             <div className="col-md-6">
-              <h1 className='title'>Accelerate practice growth</h1>
+              <h1 className={Style.title}>Accelerate practice growth</h1>
               <p>Patients appreciate open and convenient access to their provider. Give them what they desire right from your homepage with:</p>
               <ul>
                 <li>Live Chat</li>
@@ -48,7 +48,7 @@ const PatientIntake = () => {
                 <li>Telehealth</li>
                 <li>Much More!</li>
               </ul>
-              <button>Learn More</button>
+                <button type="button" class="btn btn-secondary homeButton">Learn More</button>
             </div>
             <div className="col-md-6">
               <img className='image1' src="https://beam.health/wp-content/uploads/2021/12/Image-140-1024x690.png"></img>

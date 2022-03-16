@@ -2,15 +2,23 @@
   padding: 100px 0px;
 }
 
+.section ul,
+.section p {
+  font-size: 25px;
+  margin-left: 50px;
+}
+
 .title {
   font-size: 70px;
+  margin-top: -50px;
+  margin-left: 50px;
   font-weight: 600;
 }
 
 .subTitle {
   font-size: 45px;
   font-weight: 600;
-  margin-top: 50px;
+  margin-top: 300px;
 }
 
 .text {

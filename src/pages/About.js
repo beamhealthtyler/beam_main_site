@@ -16,12 +16,12 @@ function Home() {
         </div>
       </div>
 
-      <div className="row section1">
+      <div className="row section1-about">
         <div className="col-md-6">
           <img className='image1' src="https://beam.health/wp-content/uploads/2021/12/Group-1172.png"></img>
         </div>
         <div className="col-md-6">
-          <div className='section2-text'>
+          <div className='section2-text-about'>
             <h2 className="section2-title">The Potential of Virtual Care</h2>
             <p>Despite digital healthcare offerings growing faster than the rest of the economy, only about 15 percent of healthcare happens virtually today</p>
             <p>A convoluted payer framework, a byzantine healthcare system, and a lack of companies that marry clinical expertise with technology are constraining the impact of telehealth. There is enormous room for growth and improvement in virtual care</p>
@@ -32,9 +32,9 @@ function Home() {
 
       <div className='container'>
         <div className="row section2">
-          <h2>Executive Team</h2>
+          <h2 class='Executive'>Executive Team</h2>
             <div className="col-md-4">
-              <img className='section2-image' src="https://beam.health/wp-content/uploads/2020/10/Sas-1-340x390.jpg"></img>
+              <img className='beam-about-image' src="https://beam.health/wp-content/uploads/2020/10/Sas-1-340x390.jpg"></img>
               <div className='section2-subtext-container'>
                 <p>Sas Ponnapalli</p>
                 <p>CEO, Co-Founder</p>
@@ -42,7 +42,7 @@ function Home() {
               </div>
             </div>
             <div className="col-md-4">
-              <img className='section2-image' src="https://beam.health/wp-content/uploads/2020/11/Ranga-340x390.jpg"></img>
+              <img className='beam-about-image' src="https://beam.health/wp-content/uploads/2020/11/Ranga-340x390.jpg"></img>
               <div className='section2-subtext-container'>
                 <p>Sas Ponnapalli</p>
                 <p>CEO, Co-Founder</p>
@@ -50,7 +50,7 @@ function Home() {
               </div>
             </div>
             <div className="col-md-4">
-              <img className='section2-image' src="https://beam.health/wp-content/uploads/2020/10/Drew-1-340x390.jpg"></img>
+              <img className='beam-about-image' src="https://beam.health/wp-content/uploads/2020/10/Drew-1-340x390.jpg"></img>
               <div className='section2-subtext-container'>
                 <p>Sas Ponnapalli</p>
                 <p>CEO, Co-Founder</p>

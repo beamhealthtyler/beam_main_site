@@ -7,6 +7,16 @@
   padding: 15px 30px !important;
 }
 
+.mental_health_section1_text {
+  width: 40%;
+  margin-left: 25px;
+}
+
+iframe {
+  border-radius: 15px;
+  border: 1px solid white;
+}
+
 .section {
   padding: 100px 0px
 }

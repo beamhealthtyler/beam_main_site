@@ -42,7 +42,7 @@ const OnlinePayments = () => {
             </div>
             <div className='col-md-4 col-sm-12'>
               <img className={Style.bankingImg} src="https://beam.health/wp-content/uploads/2021/12/Group-1157.png"></img>
-              <div className={Style.bankingText}>
+              <div className={Style.bankingText + ' ' + Style.bankingText3}>
                 <p>Payment plan</p>
                 <p>Provide convenience with enhanced patient financing that ensures cost is never a factor in healthcare</p>
               </div>
@@ -55,9 +55,10 @@ const OnlinePayments = () => {
       <div className='container'>
         <div className={"row " + Style.section} >
           <div className="col-md-6">
-            <div className='test'>
+            <div className={Style.section3_text}>
               <h1 className={'title ' + Style.titleMentalHealth}>Improve Cashflow</h1>
               <p className={Style.subtext}>Learn how AIM Medical’s Managing Director earned her practice an extra $100K!</p>
+              <button type="button" class="btn btn-secondary homeButton">Learn More</button>
             </div>
           </div>
           <div className="col-md-6">

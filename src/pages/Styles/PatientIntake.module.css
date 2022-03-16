@@ -2,6 +2,21 @@
   background: linear-gradient(135deg,rgb(89,206,255) 0%,rgb(134,125,226) 100%);
 }
 
-.section {
+.backgroundImage p {
+  font-size: 25px;
+}
+
+.section,
+.section2 {
   padding: 100px 0px;
+}
+
+.title {
+  font-size: 45px;
+  font-weight: 900;
+}
+
+.section2 p,
+.section2 ul {
+  font-size: 25px;
 }

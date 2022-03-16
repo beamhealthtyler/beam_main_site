@@ -2,11 +2,38 @@
   padding: 100px 0px;
 }
 
+.title {
+  font-size: 45px;
+}
+
+.text {
+  padding-left: 50px;
+}
+
 .backgroundImage {
   background: linear-gradient(135deg,rgb(89,206,255) 0%,rgb(134,125,226) 100%);
 }
 
+.backgroundImage p {
+  font-size: 25px;
+  color: white;
+}
+
 .section2 {
+  font-size: 25px;
+  margin-right: 25px;
+}
+
+.telehealth_section4 {
+  padding-left: 50px;
+}
+
+.telehealth_section4 p {
+  font-size: 25px;
+  margin: 30px 0px;
+}
+
+.section3 {
   padding: 50px 0px
 }
 

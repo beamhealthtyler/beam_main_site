@@ -7,9 +7,9 @@ const MentalHealth = () => {
       <div className='container'>
         <div className={"row " + Style.section}>
           <div className="col-md-6">
-            <iframe className={Style.movie} width="560" height="315" src="https://www.youtube.com/embed/DcMy7_ZV6tw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe className={Style.movie} width="100%" height="450px" src="https://www.youtube.com/embed/DcMy7_ZV6tw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
-          <div className="col-md-6">
+          <div className={"col-md-6 " + Style.mental_health_section1_text}>
             <h1 className={'title ' + Style.title}>Beam’s Commitment to Mental Health</h1>
             <p className={Style.text}>Watch our CEO speak about his mental health journey and his aim to increase access to treatment</p>
           </div>
