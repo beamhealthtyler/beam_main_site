@@ -28,17 +28,22 @@ const StateTelemedicinePolicies = () => {
             <img className='image1' src="https://beam.health/wp-content/uploads/2021/12/image-4-1.png"></img>
           </div>
           <div className="col-md-6">
-            <h1 style={{marginTop: '100px;'}}>Private Parity Laws</h1>
-            <h1>Know where your state stands on telemedicine.</h1>
+            <div className={Style.section2TextContainer}>
+              <h1>Private Parity Laws</h1>
+              <h1>Medicare</h1>
+            </div>
           </div>
         </div>
       </div>
 
       <div className={Style.backgroundImage}>
         <div className='container'>
-          <div className={"row " + Style.section1}>
+          <div className={"row " + Style.section3}>
             <div className='col'>
-              <h1>States</h1>
+              <div className={Style.section3container}>
+                <h1 className={Style.section3title}>States</h1>
+                <p>Please click on the state you are interested in to view that state’s information:</p>
+              </div>
               <div style={{ display: 'flex'}}>
               <ul className={Style.list}>
                     <li><a href="https://beam.health/states/alabama/">Alabama</a></li>

@@ -1,9 +1,39 @@
-.section {
+.section,
+.section1,
+.section3{
   padding: 100px 0px;
+}
+
+.title3 {
+  font-size: 45px !important;
+  font-weight: 900;
+}
+
+.section3 img {
+  margin-top: 50px;
+}
+
+ .section3title {
+  font-weight: 900;
+  margin-top: 25px;
+}
+
+.iconText > p:nth-child(2) {
+  font-size: 18px;
+}
+
+.section1 p,
+.section p,
+.section3 p {
+  font-size: 25px;
 }
 
 .section2Subsection {
   padding-top: 50px;
+}
+
+.section2Subsection img {
+  margin-left: 25px;
 }
 
 .backgroundImage {

@@ -4,7 +4,7 @@ const EnterprisePage = () => {
   return (
     <>
       <div className='container'>
-        <div className={"row " + Style.section} >
+        <div className={"row " + Style.section1} >
           <div className="col-md-6">
             <h1 className='title'>Engineered To Scale With Practices Of All Sizes</h1>
             <p>Generate more revenue, simplify workflows, and connect with patients using the one and only telehealth platform built for healthcare enterprises.</p>
@@ -19,7 +19,7 @@ const EnterprisePage = () => {
         <div className='container'>
 
           <div className={"row " + Style.section} >
-            <div className="col-md-8">
+            <div className="col">
               <h1 className='title'>Built to Scale With Any Practice, No Matter the Size</h1>
               <p>Beam is a platform that’s changing the way providers view virtual care. Connect with patients like never before through:</p>
             </div>
@@ -58,29 +58,29 @@ const EnterprisePage = () => {
         </div>
       </div>
 
-      <div className={Style.section + ' ' + 'container'}>
-        <p>Simplify Practice Management</p>
+      <div className={Style.section3 + ' ' + 'container'}>
+        <p className={Style.title3}>Simplify Practice Management</p>
         <p>Elevate your practice with digital infrastructure designed to support seamless growth.</p>
         <div className='row'>
           <div className="col-4">
             <img className={Style.iconImage} src='https://beam.health/wp-content/uploads/2021/11/revenue-optimize-300x227.png'></img>
             <div className={Style.iconText}>
-              <p>Optimize Your Revenue</p>
-              <p>Beam is a platform that’s changing the way providers view virtual care. Connect with patients like never before through:</p>
+              <p className={Style.section3title}>Optimize Your Revenue</p>
+              <p className={Style.section3subtitle}>Beam is a platform that’s changing the way providers view virtual care. Connect with patients like never before through:</p>
             </div>
           </div>
           <div className="col-4">
             <img className={Style.iconImage} src='https://beam.health/wp-content/uploads/2021/11/user-role-icon-300x261.png'></img>
             <div className={Style.iconText}>
-              <p>Delegate Intelligently</p>
-              <p>Use Beam to share management roles responsibly. Control levels of employee access on our platform for comprehensive security and streamlined operations.</p>
+              <p className={Style.section3title}>Delegate Intelligently</p>
+              <p className={Style.section3subtitle}>Use Beam to share management roles responsibly. Control levels of employee access on our platform for comprehensive security and streamlined operations.</p>
             </div>
           </div>
           <div className="col-4">
             <img className={Style.iconImage} src='https://beam.health/wp-content/uploads/2021/11/file-export-icon-105x105.png'></img>
             <div className={Style.iconText}>
-              <p>Share Documents Securely</p>
-              <p>Make your patient a partner-in-care. Instantly send test results through our HIPAA-compliant channels.</p>
+              <p className={Style.section3title}>Share Documents Securely</p>
+              <p className={Style.section3subtitle}>Make your patient a partner-in-care. Instantly send test results through our HIPAA-compliant channels.</p>
             </div>
           </div>
         </div>

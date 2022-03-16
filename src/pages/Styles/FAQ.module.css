@@ -11,3 +11,12 @@
   background: url(https://beam.health/wp-content/uploads/2021/12/image-6.png) no-repeat;
   background-position-x: right;
 }
+
+.section2 p{
+  font-size: 35px;
+  font-weight: 800;
+}
+
+.section2 > div > h1{
+  margin-bottom: 20px;
+}

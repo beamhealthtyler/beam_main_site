@@ -9,7 +9,7 @@ const AffiliatePartnershipsResellerProgram = () => {
             <div className="col-md-6">
               <img className='image1' src="https://beam.health/wp-content/uploads/2021/12/image-4.png"></img>
             </div>
-            <div className="col-md-6">
+            <div className={"col-md-6 " + Style.Stylesection1textcontainer}>
               <h1 className='title'>Let’s grow the footprint of digital healthcare together.</h1>
               <p>Our partners bring more medical providers OR more patients to Beam, combining the power of their network with our technology to move healthcare forward.</p>
               <p>Fill out the form below to be contacted by one of our Business Development Representatives</p>

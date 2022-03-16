@@ -10,6 +10,46 @@
   text-align: center;
 }
 
+.section2TextContainer {
+  margin-top: 200px;
+  margin-left: 50px;
+}
+
+.section2TextContainer h1 {
+  font-weight: 600;
+  margin: 25px;
+}
+
+
+.section3container p {
+  margin: 0px;
+padding-top: 20px;
+color: white;
+font-weight: 600;
+text-align: right;
+}
+
+.section2Text h1 {
+  font-weight: 700;
+}
+
+.section3container {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid white;
+}
+
+.section3title {
+  margin-left: 28px;
+  color: white;
+  font-weight: 600;
+}
+
+.section3 {
+  margin-top: 100px;
+  padding-top: 100px;
+}
+
 .backgroundImage {
   background: linear-gradient(135deg,rgb(89,206,255) 0%,rgb(134,125,226) 100%);
 }
@@ -25,6 +65,11 @@
   justify-items: left;
   margin-left: auto;
   margin-right: auto;
+}
+
+.list a {
+  color: white;
+  font-weight: 600;
 }
 
 .list-item {

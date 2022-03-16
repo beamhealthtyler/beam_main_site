@@ -10,6 +10,17 @@
   padding: 40px 0px;
 }
 
+.patientstextcontainer p{
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.Stylesection1textcontainer p {
+  font-weight: 600;
+  margin-top: 20px;
+  font-size: 18px;
+}
+
 .textTitle {
   font-size: 30px;
   color: white;
