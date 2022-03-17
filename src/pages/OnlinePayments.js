@@ -53,7 +53,7 @@ const OnlinePayments = () => {
       </div>
 
       <div className='container'>
-        <div className={"row " + Style.section} >
+        <div className={"row flip " + Style.section} >
           <div className="col-md-6">
             <div className={Style.section3_text}>
               <h1 className={'title ' + Style.titleMentalHealth}>Improve Cashflow</h1>

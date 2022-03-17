@@ -35,8 +35,6 @@ const PatientEngagement = () => {
           </div>
         </div>
 
-
-
       <div className='row'>
         <div className='col'>
           <div className='craft-and-measure'>We're Raising the Bar</div>

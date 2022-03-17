@@ -68,6 +68,15 @@ iframe {
 }
 
 @media only screen and (max-width: 800px) {
+
+  .subTitle {
+    padding-top: 50px;
+  }
+
+  .backgroundImage {
+    padding-top: 50px;
+  }
+
   .movie {
     width: 100%;
   }

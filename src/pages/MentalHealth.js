@@ -9,7 +9,7 @@ const MentalHealth = () => {
           <div className="col-md-6">
             <iframe className={Style.movie} width="100%" height="450px" src="https://www.youtube.com/embed/DcMy7_ZV6tw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
-          <div className={"col-md-6 " + Style.mental_health_section1_text}>
+          <div className={"col-md-6 col-sm-12" + Style.mental_health_section1_text}>
             <h1 className={'title ' + Style.title}>Beam’s Commitment to Mental Health</h1>
             <p className={Style.text}>Watch our CEO speak about his mental health journey and his aim to increase access to treatment</p>
           </div>
@@ -17,8 +17,8 @@ const MentalHealth = () => {
       </div>
     </div>
 
-    <div className='container'>
-      <div className={"row " + Style.section}>
+    <div className='container '>
+      <div className={"row flip " + Style.section}>
         <div className="col-md-6">
           <h1 className={Style.subTitle}>Try Beam’s telehealth functionality for free, right now!</h1>
           <p className={Style.text}>Enter a mock telehealth visit with a member of our Customer Service team.</p>

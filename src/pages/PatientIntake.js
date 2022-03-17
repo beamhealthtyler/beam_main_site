@@ -36,7 +36,7 @@ const PatientIntake = () => {
         </div>
       </div>
 
-      <div className={Style.backgroundImage + ' ' + Style.section2}>
+      <div className={Style.backgroundImage + ' flip ' + Style.section2}>
         <div className='container'>
           <div className="row" >
             <div className="col-md-6">

@@ -54,3 +54,21 @@
   padding: 15px 30px !important;
   margin-top: 25px;
 }
+
+@media only screen and (max-width: 800px) {
+
+  .telehealth_section4 {
+    padding-left: 0px;
+    text-align: center;
+  }
+
+  .section {
+    padding: 50px 25px;
+  }
+
+  .text {
+    padding: 0px 25px;
+    text-align: center;
+  }
+
+}

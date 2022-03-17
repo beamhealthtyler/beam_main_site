@@ -135,3 +135,60 @@ button{
   font-weight: 600;
   text-align: center;
 }
+
+@media only screen and (max-width: 900px) {
+  .title {
+    font-size: 45px;
+    text-align: center;
+    margin: 50px 0px;
+  }
+
+  .section1 {
+    padding-top: 0px;
+  }
+
+  .section1-about {
+    padding: 0px;
+  }
+
+  .section1-about img {
+    display: none;
+  }
+
+  .section2-title {
+    font-size: 45px;
+  }
+
+  .section2-text-about {
+    padding: 0px;
+    text-align: center;
+  }
+
+  .section2-title {
+    margin-top: 20px;
+  }
+
+  .section2-text-about p {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+  }
+
+  .Executive {
+    font-size: 45px;
+    text-align: center;
+  }
+
+  .button-container > button:nth-child(1) {
+    display: none;
+  }
+
+  .button-container > button:nth-child(2) {
+    width: 100%;
+  }
+
+  .section3 h1 {
+    font-size: 45px;
+  }
+}

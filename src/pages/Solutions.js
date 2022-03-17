@@ -3,17 +3,17 @@ import Style from './Styles/Solutions.module.css'
 function Solutions() {
   return (
     <div className={Style.backgroundImage}>
-    <div className='container'>
-      <div className={'row ' + Style.section}>
-        <div className='col-md-6 col-sm-0'>
-          <div>
-            <div className={Style.solutionsSection1Header}>A digital health platform designed for innovation</div>
-            <button type="button" className={"btn btn-secondary " + Style.section1Button}>Try Beam Free</button>
+      <div className='container'>
+        <div className={'row flip ' + Style.section}>
+          <div className='col-md-6 col-sm-0'>
+            <div>
+              <div className={Style.solutionsSection1Header}>A digital health platform designed for innovation</div>
+              <button type="button" className={"btn btn-secondary " + Style.section1Button}>Try Beam Free</button>
+            </div>
           </div>
-        </div>
-        <div className='col-md-6 col-sm-12'>
-          <img className={Style.solutionsImage} src="https://beam.health/wp-content/uploads/2021/11/group-video-enterprise-landing-page.png"></img>
-        </div>
+          <div className='col-md-6 col-sm-12'>
+            <img className={Style.solutionsImage} src="https://beam.health/wp-content/uploads/2021/11/group-video-enterprise-landing-page.png"></img>
+          </div>
       </div>
 
       <div className={'row ' + Style.section}>
@@ -37,7 +37,7 @@ function Solutions() {
     </div>
 
     <div className={Style.backgroundImage2}>
-      <div className={'row ' + Style.sectionNoContainer}>
+      <div className={'row flip ' + Style.sectionNoContainer}>
         <div className='col-md-6 col-sm-12'>
           <div className='section2-text'>
             <div className='section2-header'>Telehealth Made Personal</div>
@@ -79,7 +79,7 @@ function Solutions() {
     </div>
 
     <div className={Style.backgroundImage2}>
-      <div className={'row ' + Style.sectionNoContainer}>
+      <div className={'row flip ' + Style.sectionNoContainer}>
         <div className='col-md-6 col-sm-12'>
           <div className='section2-text'>
             <div className='section2-header'>Telehealth Made Personal</div>

@@ -63,6 +63,15 @@
 }
 
 @media only screen and (max-width: 800px) {
+
+  .section3_text {
+    margin-top: 0px;
+  }
+
+  .titleMentalHealth {
+    margin-top: 0px;
+  }
+
   .titleMentalHealth {
     text-align: center;
     font-size: 45px;

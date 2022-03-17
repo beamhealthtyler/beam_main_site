@@ -20,3 +20,31 @@
 .section2 ul {
   font-size: 25px;
 }
+
+
+@media only screen and (max-width: 800px) {
+
+  .section,
+  .section2 {
+    padding: 50px 0px;
+  }
+
+  .backgroundImage > div > div > div {
+    text-align: center;
+  }
+
+  .mobile-padding {
+    padding: 25px;
+  }
+
+  .backgroundImage {
+    padding: 0px 25px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+  }
+
+  .title {
+    margin-bottom: 30px;
+  }
+
+}
