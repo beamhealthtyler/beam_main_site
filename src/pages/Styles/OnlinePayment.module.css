@@ -64,9 +64,21 @@
 
 @media only screen and (max-width: 800px) {
 
+  .section {
+    padding-top: 0px;
+  }
+
   .section3_text {
     margin-top: 0px;
   }
+
+  .section2TextContainer {
+    margin-top: 50px;
+  }
+
+  .bankingText3 p:nth-child(1){
+  margin-top: 0px;
+}
 
   .titleMentalHealth {
     margin-top: 0px;

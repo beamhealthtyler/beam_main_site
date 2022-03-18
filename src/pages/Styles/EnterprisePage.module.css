@@ -50,3 +50,26 @@
 .iconText p {
   text-align: center;
 }
+
+@media only screen and (max-width: 800px) {
+
+  .section{
+    padding-top: 0px !important;
+    padding-right: 0px;
+  }
+
+  .section1 p,
+  .section p,
+  .section3 p {
+    text-align: center;
+  }
+
+  .section2Subsection img {
+    margin-left: 0px;
+  }
+
+  .section1 {
+    padding-top: 0px;
+  }
+
+}

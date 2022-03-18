@@ -28,3 +28,22 @@
 .img {
   width: 75%;
 }
+
+@media only screen and (max-width: 800px) {
+  .section2 {
+    margin-top: 0px;
+  }
+
+  .section2 img,
+  .section2 h2,
+  .section2 p{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+  .section2 p {
+    width: 75%;
+    font-size: 20px;
+  }
+}

@@ -34,3 +34,18 @@
   margin-left: 0;
   padding: 0px;
 }
+
+@media only screen and (max-width: 800px) {
+  .section {
+    padding: 0px;
+  }
+
+  .section img {
+    padding: 25px;
+  }
+
+  .backgroundImage {
+    margin-top: 50px;
+    padding: 50px 25px;
+  }
+}

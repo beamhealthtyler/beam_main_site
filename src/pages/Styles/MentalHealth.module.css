@@ -69,12 +69,25 @@ iframe {
 
 @media only screen and (max-width: 800px) {
 
+  .backgroundImage .section {
+    padding-top: 0px;
+  }
+
+  .section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
   .subTitle {
     padding-top: 50px;
   }
 
   .backgroundImage {
-    padding-top: 50px;
+    /* padding-top: 50px; */
+  }
+
+  .image3 {
+    padding-top: 50px !important;
   }
 
   .movie {

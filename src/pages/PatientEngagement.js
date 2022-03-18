@@ -22,7 +22,7 @@ const PatientEngagement = () => {
       </div>
     </div>
 
-        <div className="row">
+        <div className="row flip">
           <div className="col-md-6">
             <div className={Style.textContainer}>
               <h1 className={Style.subTitle}>What is Beam?</h1>
