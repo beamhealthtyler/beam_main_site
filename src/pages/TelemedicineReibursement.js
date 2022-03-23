@@ -15,12 +15,12 @@ const TelemedicineReibursement = () => {
           </div>
         </div>
 
-        <div className={"row " + Style.section}>
+        <div className={"row " + Style.section2}>
           <div className="col-md-6">
             <p>Telemedicine is an exciting and constantly evolving technology that has been embraced by healthcare professionals all over the world. As its use continues to expand, insurance providers and states across the country are seeing the utility in telemedicine and are encompassing it in their plans.</p>
             <p>In fact, not only have regulatory bodies embraced the use of telemedicine for providers in the states that they are licensed in, but laws are now allowing for virtual care across state boundaries. 12 state boards allow special telemedicine certifications to allow providers to practice medicine across state lines via telemedicine (AL, LA, NV, NJ, NM, OH, OK, OR, PA, TN, TX).</p>
             <p>Below is a guide for what you need to know when seeking reimbursement for telemedicine. Please visit our comprehensive, state by state policy guide to see your state’s telemedicine insurance laws.</p>
-            <button type="button" class="btn btn-secondary homeButton">Request a Demo</button>
+            <button type="button" class={"btn btn-secondary homeButton " + Style.blue}>Request a Demo</button>
           </div>
           <div className="col-md-6">
             <img className='image1' src="https://beam.health/wp-content/uploads/2021/12/image-4-1.png"></img>

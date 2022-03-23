@@ -41,6 +41,8 @@ const Layout = () => {
               </NavDropdown>
             </Nav>
           </Navbar.Collapse>
+          <div className='callus'>Call us at (929) 226-0624</div>
+          <div>Book a Demo</div>
         </Container>
       </Navbar>
       <Outlet />
