@@ -23,6 +23,23 @@
   margin-top: -15px;
 }
 
+.textTitle {
+  font-weight: 600;
+  font-size: 25px;
+  color: white;
+}
+
+.textsubtitle {
+  font-size: 25px;
+  color: white;
+  font-weight: 600;
+}
+
+.textsubtitle2 {
+  font-size: 16px;
+  font-weight: 600;
+}
+
 .section {
   padding: 40px 0px;
 }
