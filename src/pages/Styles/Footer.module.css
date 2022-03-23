@@ -1,0 +1,56 @@
+.container > div:nth-child(1) {
+  display: flex;
+  justify-content: space-between;
+  background-color: #2C336E;
+  color: white;
+  padding-top: 50px;
+}
+
+.unorderedList {
+  list-style: none;
+}
+
+.unorderedList li {
+  font-weight: 900;
+  font-size: 20px;
+  margin: 10px 0px;
+}
+
+.unorderedList2 {
+  font-weight: 600;
+  list-style: none;
+  font-size: 16px;
+}
+
+.unorderedList2 li {
+  margin: 10px 0px;
+}
+
+.unorderedList2 li:nth-child(1) {
+  color: #6B7099;
+}
+
+.red {
+  background-color: #DF4E6B !important;
+  border-radius: 30px;
+}
+
+.background {
+  background-color: #2C336E;
+}
+
+.background > ul {
+  display: flex;
+  list-style: none;
+  color: white;
+}
+
+.background li {
+  /* font-size: 0; */
+  border-radius: 50%;
+  background-color: #565c8f;
+  padding: 20px;
+  display: inline-block;
+  z-index: 0;
+  margin: 10px;
+}

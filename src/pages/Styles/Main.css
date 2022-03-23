@@ -12,6 +12,37 @@ button{
   font-size: 20px !important;
 }
 
+.nav-element {
+  color: black;
+}
+
+.nav-img {
+  width: 100%;
+  margin-top: -6px;
+}
+
+.navbar-brand {
+  width: 10%;
+  cursor: pointer;
+}
+
+.home-container {
+  padding-top: 60px;
+}
+
+.home {
+  margin-top: -60px;
+}
+
+.transparent {
+  background-color: transparent !important;
+}
+
+.sticky {
+  position: sticky;
+  top: 0;
+}
+
 .callus {
   margin-right: 25px;
 }
@@ -139,6 +170,7 @@ button{
 .video {
   width: 100%;
   border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .section2-text {
