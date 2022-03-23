@@ -2,6 +2,13 @@
   background: linear-gradient(135deg,rgb(89,206,255) 0%,rgb(134,125,226) 100%);
 }
 
+.title {
+  font-family: 'barlow';
+  font-size: 60px;
+  font-weight: 600;
+  margin-top: -20px;
+}
+
 .section {
   padding: 100px 0px;
 }
@@ -16,23 +23,31 @@
 }
 
 .Stylesection1textcontainer p {
+  color: #9B9B9B;
   font-weight: 600;
   margin-top: 20px;
+  font-size: 24px;
+}
+
+.Stylesection1textcontainer p:nth-child(3) {
   font-size: 18px;
 }
 
 .textTitle {
-  font-size: 30px;
+  font-weight: 600;
+  font-size: 25px;
   color: white;
 }
 
 .textsubtitle {
   font-size: 25px;
   color: white;
+  font-weight: 600;
 }
 
 .textsubtitle2 {
-  font-size: 25px;
+  font-size: 16px;
+  font-weight: 600;
 }
 
 .textContainer {

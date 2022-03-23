@@ -7,7 +7,7 @@ const PatientIntake = () => {
         <div className='container'>
           <div className="row" >
             <div className="col-md-6">
-              <h1 className='title'>Streamline Patient Registration</h1>
+              <h1 className={Style.title}>Streamline Patient Registration</h1>
               <p>Eliminate clipboards with digital patient intake forms from your homepage</p>
             </div>
             <div className="col-md-6">
@@ -23,9 +23,9 @@ const PatientIntake = () => {
             <img className='image1' src="https://beam.health/wp-content/uploads/2021/12/widget-w-red-background.png"></img>
           </div>
           <div className={"col-md-6 " + Style.mobilePadding}>
-            <h1 className={Style.title}>Paperless patient enrollment</h1>
+            <h1 className={Style.title2}>Paperless patient enrollment</h1>
             <p>Upgrade your patient intake system and collect the info you need before they ever set foot in your office:</p>
-            <ul>
+            <ul className={Style.unorderedList}>
               <li>Contact Info</li>
               <li>Insurance</li>
               <li>Medical History</li>

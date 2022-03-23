@@ -40,15 +40,19 @@
   background: linear-gradient(135deg,rgb(89,206,255) 0%,rgb(134,125,226) 100%);
 }
 
+.backgroundImage h1,
+.backgroundImage p {
+  color: white;
+}
+
 .iconImage {
   height: 100px;
   width: 100px;
-  margin: 0 auto;
   display: block;
 }
 
 .iconText p {
-  text-align: center;
+  text-align: left;
 }
 
 @media only screen and (max-width: 800px) {

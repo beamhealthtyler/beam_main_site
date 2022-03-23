@@ -26,21 +26,21 @@ const OnlinePayments = () => {
 
         <div className='container'>
           <div className='row'>
-            <div className='col-md-4 col-sm-12'>
-              <img className={Style.bankingImg} src="https://beam.health/wp-content/uploads/2021/12/credit-card-holder.png"></img>
+            <div className={'col-md-4 col-sm-12'}>
+              <img className={Style.bankingImg + ' ' + Style.Img1} src="https://beam.health/wp-content/uploads/2021/12/credit-card-holder.png"></img>
               <div className={Style.bankingText}>
                 <p>Credit card</p>
                 <p>Securely store credit data and easily collect medical payments at the point of service or for future invoices</p>
               </div>
             </div>
-            <div className='col-md-4 col-sm-12'>
+            <div className={'col-md-4 col-sm-12'}>
               <img className={Style.bankingImg} src="https://beam.health/wp-content/uploads/2021/12/Group-865.png"></img>
               <div className={Style.bankingText}>
-                <p>Bank transfer</p>
+                <p className={Style.middleText}>Bank transfer</p>
                 <p>Direct ACH bank transfer allowing you to reduce processing fees and receive payment faster</p>
               </div>
             </div>
-            <div className='col-md-4 col-sm-12'>
+            <div className={'col-md-4 col-sm-12'}>
               <img className={Style.bankingImg} src="https://beam.health/wp-content/uploads/2021/12/Group-1157.png"></img>
               <div className={Style.bankingText + ' ' + Style.bankingText3}>
                 <p>Payment plan</p>
@@ -53,7 +53,7 @@ const OnlinePayments = () => {
       </div>
 
       <div className='container'>
-        <div className={"row flip " + Style.section} >
+        <div className={"row flip " + Style.section3} >
           <div className="col-md-6">
             <div className={Style.section3_text}>
               <h1 className={'title ' + Style.titleMentalHealth}>Improve Cashflow</h1>

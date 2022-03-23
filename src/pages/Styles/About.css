@@ -58,7 +58,6 @@ button{
   padding-top: 8%;
   padding-right: 8%;
   margin-top: 50px;
-  padding-left: 8%;
   background: url(https://beam.health/wp-content/uploads/2021/12/Rectangle-541.png) no-repeat;
   background-position-x: 100%;
 }
@@ -80,13 +79,16 @@ button{
 .section2-text-about {
   text-align: right;
   padding-right: 50px;
+  margin-top: 60px;
 }
 
 .section2-text-about p {
-  font-size: 25px;
+  font-size: 18px;
 }
 
 .section2-text-about h2 {
+  margin-top: 30px;
+  font-size: 35px;
   font-weight: 900;
 }
 

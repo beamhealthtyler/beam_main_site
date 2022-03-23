@@ -8,7 +8,7 @@ function Home() {
 
         <div className='row'>
           <div className='col'>
-            <h1 className='header-text'>Telehealth Engineered For Reliability</h1>
+            <h1 className='main-header-text'>Telehealth Engineered For Reliability</h1>
           </div>
         </div>
 
