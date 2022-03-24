@@ -1,5 +1,5 @@
 import Style from './Styles/Footer.module.css'
-import { useNavigate } from "react-router-dom";
+import { Outlet, Link, useNavigate } from "react-router-dom";
 
 function Footer() {
   let navigate = useNavigate();
@@ -12,34 +12,34 @@ function Footer() {
           </div>
           <div>
             <ul className={Style.unorderedList}>
-                <li onClick={() => navigate("/about")}>About Us</li>
-                <li>Solutions</li>
-                <li>Patient Engagement</li>
-                <li>Online Payments</li>
-                <li>Patient Intake</li>
-                <li>Telehealth</li>
-                <li>Contact Us</li>
+                <Link to="/about"><li>About Us</li></Link>
+                <Link to="solutions"><li>Solutions</li></Link>
+                <Link to="patientengagement"><li>Patient Engagement</li></Link>
+                <Link to="online-payments"><li>Online Payments</li></Link>
+                <Link to="patient-intake"><li>Patient Intake</li></Link>
+                <Link to="telehealth-landing-page"><li>Telehealth</li></Link>
+                <Link to=""><li>Contact Us</li></Link>
             </ul>
           </div>
           <div>
             <ul className={Style.unorderedList2}>
               <li>Resources</li>
-              <li>Blog</li>
-              <li>FAQ</li>
-              <li>EHR Integrations</li>
-              <li>Beam vs Others</li>
-              <li>State Telemedicine Policies</li>
-              <li>Telemedicine Reimbursement</li>
-              <li>Case Studies</li>
-              <li>Newsroom</li>
+              <Link to="/blogs"><li>Blog</li></Link>
+              <Link to="faq"><li>FAQ</li></Link>
+              <Link to="ehr-integrations"><li>EHR Integrations</li></Link>
+              <Link to="beam-vs-others"><li>Beam vs Others</li></Link>
+              <Link to="state-telemedicine-policies"><li>State Telemedicine Policies</li></Link>
+              <Link to="telemedicine-reibursement"><li>Telemedicine Reimbursement</li></Link>
+              <Link to="case-studies"><li>Case Studies</li></Link>
+              <Link to=""><li>Newsroom</li></Link>
             </ul>
           </div>
           <div>
             <ul className={Style.unorderedList2}>
               <li>Who We Help</li>
-              <li>For Clinics</li>
-              <li>Affiliate Partnerships & Reseller Program</li>
-              <li>Patients</li>
+              <Link to="for-clinics"><li>For Clinics</li></Link>
+              <Link to="affiliate-partnerships-reseller-program"><li>Affiliate Partnerships & Reseller Program</li></Link>
+              <Link to="patients"><li>Patients</li></Link>
             </ul>
           </div>
           <div>
@@ -54,6 +54,7 @@ function Footer() {
           </ul>
         </div>
       </div>
+      <Outlet />
     </>
   );
 }

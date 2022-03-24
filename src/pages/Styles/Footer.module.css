@@ -26,7 +26,17 @@
   margin: 10px 0px;
 }
 
-.unorderedList2 li:nth-child(1) {
+.unorderedList a {
+  color: white;
+  text-decoration: none;
+}
+
+.unorderedList2 a {
+  color: white;
+  text-decoration: none;
+}
+
+.unorderedList2 > li:nth-child(1) {
   color: #6B7099;
 }
 
