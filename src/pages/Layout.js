@@ -26,9 +26,12 @@ const Layout = () => {
       setShow3(false);
   }
 
+  let url = window.location.href
+  url = url.slice(url.length - 4)
+
   return (
     <>
-      <Navbar bg="light" expand="lg" className='transparent sticky'>
+      <Navbar bg="light" expand="lg" className={url === 'home' ? 'transparent sticky' : 'sticky'}>
         <Container>
           <Navbar.Brand onClick={() => navigate("/home")}>
           <img width="231" height="auto" alt="" title=""
@@ -83,9 +86,9 @@ const Layout = () => {
                 <NavDropdown.Item onClick={() => navigate("/beam-vs-others")}>Beam Vs Others</NavDropdown.Item>
               </NavDropdown>
             </Nav>
+            <div className='callus'>Call us at (929) 226-0624</div>
+            <Nav.Link className="nav-element demo-link" onClick={() => navigate("/demo")}>Book a Demo</Nav.Link>
           </Navbar.Collapse>
-          <div className='callus'>Call us at (929) 226-0624</div>
-          <Nav.Link className="nav-element" onClick={() => navigate("/demo")}>Book a Demo</Nav.Link>
         </Container>
       </Navbar>
       <Outlet />

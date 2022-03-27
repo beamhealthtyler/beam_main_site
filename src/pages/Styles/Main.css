@@ -57,6 +57,14 @@ button{
   font-weight: 900;
 }
 
+.pointer {
+  cursor: pointer;
+}
+
+.margin-top-home {
+  margin-top: 20px;
+}
+
 .main-header-text {
   color: white;
   margin-bottom: 50px;
@@ -69,6 +77,10 @@ button{
 
 .section2-image {
   margin-top: 150px
+}
+
+.section2-image-home {
+  margin-top: 150px;
 }
 
 .mascot-text div:nth-child(1) {
@@ -237,6 +249,26 @@ button{
 
 
 @media only screen and (max-width: 900px) {
+
+  #root{
+    width: 100%;
+  }
+
+  .main-header-text {
+    font-size: 45px;
+  }
+
+  .transparent {
+    background-color: #fff !important;
+  }
+
+  .demo-link {
+    padding-left: 0px;
+  }
+
+  .nav-img {
+    width: 450%;
+  }
 
   .header-text{
     font-size: 45px;
