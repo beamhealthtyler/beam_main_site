@@ -23,6 +23,12 @@ const EHR = () => {
         <h1 className={Style.title}>We Play Nice With Your EHR</h1>
         <p className={Style.subtitle}>A fully integrated suite of digital health features that will save your healthcare providers time.</p>
       </div>*/}
+      <div className='row'>
+        <div className='col'>
+          <div className='craft-and-measure'>Craft and Measure the Patient Experience</div>
+          <iframe src="https://meetings.hubspot.com/drew160/beam-health-demo?embed=true&amp;parentHubspotUtk=653dcb903fc615dc2dcbbcb3f3f109ec&amp;parentPageUrl=https://beam.health/request-a-free-demo/&amp;ab=undefined&amp;abStatus=undefined&amp;contentId=undefined" width="100%" style={{minWidth: "312px", minHeight: '516px', height: "756px", border: "none"}}></iframe>
+        </div>
+      </div>
     </>
   )
 };

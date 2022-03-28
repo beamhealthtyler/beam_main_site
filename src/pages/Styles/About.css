@@ -8,6 +8,15 @@ button{
   font-size: 20px !important;
 }
 
+.about-featured {
+  color: #887FE2;
+  font-size: 70px;
+  font-weight: 800;
+  margin-left: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
 .background-image-about {
   background-image: url(https://beam.health/wp-content/uploads/2022/01/blug-gradient-bg.png);
   background-repeat: no-repeat;
@@ -16,6 +25,7 @@ button{
 }
 
 .section3 {
+  margin-top: 80px;
   background: linear-gradient(135deg,rgb(89,206,255) 0%,rgb(134,125,226) 100%);
 }
 

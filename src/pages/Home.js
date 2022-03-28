@@ -129,11 +129,8 @@ class Home extends React.Component {
                 </div>
               </>
             }
-
-
           </div>
         </div>
-
 
           {/* Featured On Section*/}
 
@@ -142,7 +139,9 @@ class Home extends React.Component {
               <div className='mascot-text'>
                 <div>How much more can you make with Beam?</div>
                 <div>Find out in 2 minutes how much you lost due to your patient collections process</div>
-                <button type="button" className="btn btn-secondary homeButton">See Your Savings</button>
+                <a href='https://providers.beam.health/revenue-calculator/?utm_source=home+page&utm_medium=home+page+email+-+revenue+calc&utm_campaign=home+page+email+collection+revenue+calc&utm_id=home+page+email+collect+-+revenue+calc' target='_bank'>
+                  <button type="button" className="btn btn-secondary homeButton">See your savings</button>
+                </a>
               </div>
             </div>
             <div className='col-md-6 col-sm-12'>
@@ -153,14 +152,10 @@ class Home extends React.Component {
           <div className='row'>
             <div className='col'>
               <div className='craft-and-measure'>Craft and Measure the Patient Experience</div>
+              <iframe src="https://meetings.hubspot.com/drew160/beam-health-demo?embed=true&amp;parentHubspotUtk=653dcb903fc615dc2dcbbcb3f3f109ec&amp;parentPageUrl=https://beam.health/request-a-free-demo/&amp;ab=undefined&amp;abStatus=undefined&amp;contentId=undefined" width="100%" style={{minWidth: "312px", minHeight: '516px', height: "756px", border: "none"}}></iframe>
             </div>
           </div>
 
-          <div className='row'>
-            <div className='col'>
-
-            </div>
-          </div>
       </div>
     );
   }

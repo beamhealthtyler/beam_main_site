@@ -23,6 +23,7 @@ import TelemedicineReibursement from "./pages/TelemedicineReibursement.js";
 import FAQ from "./pages/FAQ.js";
 import NoPage from "./pages/NoPage";
 import Footer from "./pages/Footer"
+import Demo from "./pages/Demo"
 
 export default function App() {
   return (
@@ -48,6 +49,7 @@ export default function App() {
                <Route path="telemedicine-reibursement" element={<TelemedicineReibursement />} />
                <Route path="beam-vs-others" element={<BeamVsOthers />} />
                <Route path="blogs" element={<Blogs />} />
+               <Route path="demo" element={<Demo />} />
                <Route path="faq" element={<FAQ />} />
                <Route path="*" element={<NoPage />} />
              </Route>

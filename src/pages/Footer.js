@@ -24,14 +24,13 @@ function Footer() {
           <div>
             <ul className={Style.unorderedList2}>
               <li>Resources</li>
-              <Link to="/blogs"><li>Blog</li></Link>
+{/*              <Link to="/blogs"><li>Blog</li></Link>*/}
               <Link to="faq"><li>FAQ</li></Link>
               <Link to="ehr-integrations"><li>EHR Integrations</li></Link>
               <Link to="beam-vs-others"><li>Beam vs Others</li></Link>
               <Link to="state-telemedicine-policies"><li>State Telemedicine Policies</li></Link>
               <Link to="telemedicine-reibursement"><li>Telemedicine Reimbursement</li></Link>
-              <Link to="case-studies"><li>Case Studies</li></Link>
-              <Link to=""><li>Newsroom</li></Link>
+              {/*<Link to="case-studies"><li>Case Studies</li></Link>*/}
             </ul>
           </div>
           <div>
@@ -46,13 +45,13 @@ function Footer() {
             <button type="button" className={"btn btn-secondary " + Style.red}>Request a Demo</button>
           </div>
         </div>
-        <div className={Style.background}>
+      {/*  <div className={Style.background}>
           <ul>
             <li><i class="fa-brands fa-instagram"></i></li>
             <li><i class="fa-brands fa-facebook-f"></i></li>
             <li><i class="fa-brands fa-twitter"></i></li>
           </ul>
-        </div>
+        </div>*/}
       </div>
       <Outlet />
     </>

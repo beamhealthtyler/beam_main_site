@@ -1,11 +1,13 @@
 import './Styles/About.css';
+import Scroll from './Component/scrollSlider'
 import { Helmet } from "react-helmet";
+import { Link } from "react-router-dom";
 
 function Home() {
   return (
     <div className="background-image-about">
 
-      <div className='container'>
+      <div className='container about-container'>
         <div className="row section1">
           <div className="col-md-6">
             <h1 className='title'>The Future of Healthcare, Now</h1>
@@ -30,7 +32,7 @@ function Home() {
         </div>
       </div>
 
-      <div className='container'>
+{/*      <div className='container'>
         <div className="row section2">
           <h2 class='Executive'>Executive Team</h2>
             <div className="col-md-4">
@@ -38,7 +40,7 @@ function Home() {
               <div className='section2-subtext-container'>
                 <p>Sas Ponnapalli</p>
                 <p>CEO, Co-Founder</p>
-                <p>Read More</p>
+
               </div>
             </div>
             <div className="col-md-4">
@@ -46,7 +48,7 @@ function Home() {
               <div className='section2-subtext-container'>
                 <p>Sas Ponnapalli</p>
                 <p>CEO, Co-Founder</p>
-                <p>Read More</p>
+
               </div>
             </div>
             <div className="col-md-4">
@@ -54,18 +56,20 @@ function Home() {
               <div className='section2-subtext-container'>
                 <p>Sas Ponnapalli</p>
                 <p>CEO, Co-Founder</p>
-                <p>Read More</p>
+
               </div>
             </div>
           </div>
-      </div>
+      </div>*/}
 
+      <div className='about-featured'>Featured On</div>
+      <Scroll/>
 
       <div className="row section3">
         <h1>Upgrade your practice</h1>
         <div className='button-container'>
-            <button type="button" className="btn btn-secondary">Learn More</button>
-            <button type="button" className="btn btn-secondary">Book a demo</button>
+            <Link to="/demo"><button type="button" className="btn btn-secondary">Learn More</button></Link>
+            <Link to="/demo"><button type="button" className="btn btn-secondary">Book a demo</button></Link>
         </div>
       </div>
     </div>

@@ -64,3 +64,24 @@
   z-index: 0;
   margin: 10px;
 }
+
+@media only screen and (max-width: 800px) {
+  .container > div:nth-child(1) {
+      flex-wrap: wrap;
+      justify-content: center;
+      text-align: center;
+  }
+
+  .unorderedList,
+  .unorderedList2
+   {
+    padding-left: 0px !important;
+  }
+
+  .background > ul {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0px;
+    margin: 0px;
+  }
+}

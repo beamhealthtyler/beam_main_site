@@ -1,4 +1,5 @@
 import Style from './Styles/PatientEngagement.module.css'
+import { Link } from "react-router-dom";
 
 const PatientEngagement = () => {
   return (
@@ -27,7 +28,7 @@ const PatientEngagement = () => {
             <div className={Style.textContainer}>
               <h1 className={Style.subTitle}>What is Beam?</h1>
               <p className={Style.text}>Add the Beam button to your site to increase revenue and bring more patients to your practice</p>
-              <button className={Style.button}>Get Started</button>
+              <Link to='/demo'><button className={Style.button}>Get Started</button></Link>
             </div>
           </div>
           <div className="col-md-6">
@@ -35,11 +36,12 @@ const PatientEngagement = () => {
           </div>
         </div>
 
-      <div className='row'>
-        <div className='col'>
-          <div className='craft-and-measure'>We're Raising the Bar</div>
+        <div className='row'>
+          <div className='col'>
+            <div className='craft-and-measure'>We're Raising the Bar</div>
+            <iframe src="https://meetings.hubspot.com/drew160/beam-health-demo?embed=true&amp;parentHubspotUtk=653dcb903fc615dc2dcbbcb3f3f109ec&amp;parentPageUrl=https://beam.health/request-a-free-demo/&amp;ab=undefined&amp;abStatus=undefined&amp;contentId=undefined" width="100%" style={{minWidth: "312px", minHeight: '516px', height: "756px", border: "none"}}></iframe>
+          </div>
         </div>
-      </div>
     </>
   )
 };

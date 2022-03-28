@@ -3,6 +3,7 @@
 
 * {
   font-family: 'barlow';
+  /* overflow-x: hidden; */
 }
 
 button{
@@ -10,6 +11,65 @@ button{
   font-weight: 600 !important;
   padding: 10px 20px !important;
   font-size: 20px !important;
+}
+
+#root {
+  overflow-x: hidden;
+}
+
+#basic-navbar-nav a {
+  color: black;
+}
+
+#basic-navbar-nav a:hover{
+  color: blue;
+}
+
+.dropdown-toggle::after {
+  content: none;
+}
+
+.dropdown-menu {
+  /* left: -50% !important; */
+  text-align: center;
+  border-top: 2px solid blue;
+}
+
+.demo-booking-container {
+  background: url(https://beam.health/wp-content/uploads/2021/12/image.png);
+  padding-top: 4%;
+  padding-bottom: 11.6%;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.demo-text-title {
+  color: white;
+  font-size: 55px;
+  font-weight: 900;
+  line-height: 1.2;
+}
+
+.demo-text-text {
+  margin-top: 10px;
+  font-size: 25px;
+  color: #32374C;
+  /* padding-left: 10%; */
+  padding-right: 5%;
+  width: 90%;
+  font-weight: 500;
+}
+
+.demo-text-container {
+  padding-left: 50px;
+}
+
+.demo-text-list-title {
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: 500;
+  font-size: 25px;
 }
 
 .nav-element {
@@ -28,6 +88,8 @@ button{
 
 .home-container {
   padding-top: 60px;
+  padding-left: 50px;
+  /* padding-right: 50px; */
 }
 
 .home {
@@ -111,7 +173,7 @@ button{
 .background-image {
   background: url("https://beam.health/wp-content/uploads/2021/11/blue-to-purple-bg-header.gif");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: auto;
 }
 
 .beam-health-header-text {
@@ -135,10 +197,14 @@ button{
   font-weight: 600;
 }
 
+.blue2 {
+  background: #99CAF5 !important;
+}
+
 .mascot-text {
   font-size: 30px;
   /* font-family: 'barlowsemibold'; */
-  padding-top: 200px;
+  padding-top: 150px;
   }
 
 .blue-background {
@@ -162,7 +228,7 @@ button{
   text-align: center;
   font-size: 70px;
   font-weight: 600;
-  margin-top: 100px;
+  margin: 100px 0px;
 }
 
 .section2-text div {
@@ -194,10 +260,60 @@ button{
 
 .section3-background {
   background: linear-gradient(135deg,rgb(89,206,255) 0%,rgb(89,206,255) 0%,rgb(135,70,176) 100%,rgb(134,125,226) 100%);
-  margin-left: -5%;
-  margin-right: -5%;
   padding-left: 100px;
 }
+
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-250px * 7));
+  }
+}
+.slider {
+  background: white;
+  /* box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125); */
+  height: 100px;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+  /* width: 960px; */
+}
+.slider::before, .slider::after {
+  background: linear-gradient(to right, white 0%, rgba(255, 255, 255, 0) 100%);
+  content: "";
+  height: 100px;
+  position: absolute;
+  width: 200px;
+  z-index: 2;
+}
+.slider::after {
+  right: 0;
+  top: 0;
+  transform: rotateZ(180deg);
+}
+.slider::before {
+  left: 0;
+  top: 0;
+}
+.slider .slide-track {
+  animation: scroll 60s linear infinite;
+  display: flex;
+  width: calc(250px * 14);
+}
+.slider .slide {
+  height: 100px;
+  width: 250px;
+}
+
+.slider-img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
 
 @media only screen and (max-width: 800px) {
 
@@ -252,6 +368,10 @@ button{
 
   #root{
     width: 100%;
+  }
+
+  .home-container {
+    padding-left: 0px;
   }
 
   .main-header-text {
