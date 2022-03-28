@@ -317,6 +317,10 @@ button{
 
 @media only screen and (max-width: 800px) {
 
+  .demo-booking-container {
+    background-position-y: -500px; 
+  }
+
   .background-image {
     background: url("https://beam.health/wp-content/uploads/2021/11/blue-to-purple-bg-header.gif");
     background-repeat: no-repeat;
