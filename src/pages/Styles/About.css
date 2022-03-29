@@ -60,7 +60,108 @@ button{
   font-weight: 600;
 }
 
+.overlay{
+  background: rgba(0,0,0,0.6);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 95;
+  display: block;
+  padding: 150px;
+}
+
 .beam-about-image {
+  /* height: 250px; */
+}
+
+.modal-container {
+  position: relative;
+  display: flex;
+  background-color: white;
+}
+
+.modal-image {
+  height: 400px;
+  padding: 50px;
+}
+
+.modal-image-container {
+  padding:
+}
+
+.close {
+  position: absolute;
+  top: -1px;
+  right: 0;
+  display: inline-block;
+  width: 65px;
+  height: 65px;
+  cursor: pointer;background: url("https://beam.health/wp-content/themes/beam-health/images/svg/close-white.svg") no-repeat center;
+  background-color: #6C68FA;
+  z-index: 5;
+}
+
+.modal-text-container {
+  margin-top: 50px;
+  margin-right: 50px;
+}
+
+.modal-text-container p:nth-child(1) {
+  margin-bottom: 19px;
+  font-size: 40px;
+  font-weight: 600;
+}
+.modal-text-container p:nth-child(2) {
+  color: #F86D44;
+  font-size: 16px;
+  margin-bottom: 35px;
+  font-weight: 600;
+}
+.modal-text-container p:nth-child(3) {
+  font-weight: bold;
+  font-weight: 600;
+}
+.modal-text-container p:nth-child(4) {
+  margin-bottom: 35px;
+  line-height: 1.5;
+}
+
+.sas:hover{
+  content: url('https://beam.health/wp-content/uploads/2020/10/Sas-2-340x390.jpeg');
+  transition: opacity 0.5s ease;
+  -webkit-transition: opacity 0.5s ease;
+}
+
+.ran:hover {
+  content: url('https://beam.health/wp-content/uploads/2020/10/Ranga-2-340x390.jpeg')
+}
+
+.andrew:hover {
+  content: url('https://beam.health/wp-content/uploads/2020/10/Drew-2-340x390.jpeg')
+}
+
+.padding {
+  padding-top: 40px;
+}
+
+.backgroundBlock {
+  background: url(https://beam.health/wp-content/uploads/2021/12/Rectangle-541.png) no-repeat;
+  background-position: top right
+}
+
+.beam-about-image {
+  transition: content 2s;
+  cursor: pointer;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /* padding: 20px; */
+  border-radius: 12px;
+}
+
+/* .beam-about-image {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -70,10 +171,11 @@ button{
   margin-top: 50px;
   background: url(https://beam.health/wp-content/uploads/2021/12/Rectangle-541.png) no-repeat;
   background-position-x: 100%;
-}
+} */
 
 .Executive {
-  font-size: 45px;
+  font-size: 70px;
+  margin-bottom: 50px;
   font-weight: 900;
 }
 
