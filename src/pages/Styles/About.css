@@ -242,12 +242,29 @@ button{
   text-align: center;
 }
 
+.about-us-container {
+  max-width: 95%;
+}
+
 .section2-subtext-container > p:nth-child(3) {
   margin-top: 25px;
   color: #3C40C7;
   font-size: 18px;
   font-weight: 600;
   text-align: center;
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1200px) {
+  .beam-about-image {
+    height: 325px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .beam-about-image {
+    height: 320px;
+    margin-right: 35px;
+  }
 }
 
 @media only screen and (max-width: 900px) {
