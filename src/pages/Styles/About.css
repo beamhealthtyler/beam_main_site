@@ -251,6 +251,83 @@ button{
 }
 
 @media only screen and (max-width: 900px) {
+
+  .overlay {
+    padding: 25px !important;
+    overflow-y: auto;
+  }
+
+  .close {
+    height: 50px !important;
+    width: 50px !important;
+  }
+
+  .modal-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+  }
+
+  .modal-text-container {
+    text-align: center;
+    width: 80%;
+    margin-right: auto !important;
+    margin-left: auto;
+    margin-top: 0px !important;
+  }
+
+  .modal-image {
+    height: 200px;
+    padding: 0px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    margin-top: 75px;
+  }
+
+  .modal-image-container {
+    padding:
+  }
+
+  .close {
+    position: absolute;
+    top: -1px;
+    right: 0;
+    display: inline-block;
+    width: 65px;
+    height: 65px;
+    cursor: pointer;background: url("https://beam.health/wp-content/themes/beam-health/images/svg/close-white.svg") no-repeat center;
+    background-color: #6C68FA;
+    z-index: 5;
+  }
+
+  .modal-text-container {
+    margin-top: 50px;
+    margin-right: 50px;
+  }
+
+  .modal-text-container p:nth-child(1) {
+    margin-bottom: 19px;
+    font-size: 40px;
+    font-weight: 600;
+  }
+  .modal-text-container p:nth-child(2) {
+    color: #F86D44;
+    font-size: 16px;
+    margin-bottom: 35px;
+    font-weight: 600;
+  }
+  .modal-text-container p:nth-child(3) {
+    font-weight: bold;
+    font-weight: 600;
+  }
+  .modal-text-container p:nth-child(4) {
+    margin-bottom: 35px;
+    line-height: 1.5;
+  }
+
+
   .title {
     font-size: 45px;
     text-align: center;
