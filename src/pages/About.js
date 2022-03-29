@@ -164,7 +164,7 @@ class Home extends React.Component {
             <h1>Upgrade your practice</h1>
             <div className='button-container'>
                 <Link to="/demo"><button type="button" className="btn btn-secondary">Learn More</button></Link>
-                <Link to="/demo"><button type="button" className="btn btn-secondary">Book a demo</button></Link>
+                <Link to="/demo"><button type="button" className="btn btn-secondary demo-button">Book a demo</button></Link>
             </div>
           </div>
         </div>

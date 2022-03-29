@@ -252,6 +252,14 @@ button{
 
 @media only screen and (max-width: 900px) {
 
+  .demo-button {
+    display: none;
+  }
+
+  .about-featured {
+    font-size: 45px;
+  }
+
   .overlay {
     padding: 25px !important;
     overflow-y: auto;
