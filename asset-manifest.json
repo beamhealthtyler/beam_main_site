@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/beam_main_site/static/css/main.8678b57c.css",
-    "main.js": "/beam_main_site/static/js/main.e6d02e64.js",
+    "main.js": "/beam_main_site/static/js/main.dc1fc773.js",
     "static/js/787.2d8e2de1.chunk.js": "/beam_main_site/static/js/787.2d8e2de1.chunk.js",
     "static/media/revicons.eot": "/beam_main_site/static/media/revicons.a77de540a38981833f9e.eot",
     "static/media/revicons.ttf": "/beam_main_site/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/beam_main_site/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/beam_main_site/index.html",
     "main.8678b57c.css.map": "/beam_main_site/static/css/main.8678b57c.css.map",
-    "main.e6d02e64.js.map": "/beam_main_site/static/js/main.e6d02e64.js.map",
+    "main.dc1fc773.js.map": "/beam_main_site/static/js/main.dc1fc773.js.map",
     "787.2d8e2de1.chunk.js.map": "/beam_main_site/static/js/787.2d8e2de1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8678b57c.css",
-    "static/js/main.e6d02e64.js"
+    "static/js/main.dc1fc773.js"
   ]
 }
