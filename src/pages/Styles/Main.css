@@ -343,6 +343,10 @@ a li {
   margin-bottom: 15px;
 }
 
+.blue-background  ul{
+  font-weight: 400;
+}
+
 .blue-background div:nth-child(1) {
   color: #867DE2;
   /* font-family: 'barlowsemibold'; */
