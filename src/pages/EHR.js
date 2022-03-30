@@ -1,6 +1,29 @@
-import Style from './Styles/EHR.module.css'
+import Style from './Styles/EHR.module.css';
+import Carousel from 'react-multi-carousel';
+import 'react-multi-carousel/lib/styles.css';
 
 const EHR = () => {
+
+  const responsive = {
+    superLargeDesktop: {
+      // the naming can be any, depends on you.
+      breakpoint: { max: 4000, min: 3000 },
+      items: 5
+    },
+    desktop: {
+      breakpoint: { max: 3000, min: 1024 },
+      items: 3
+    },
+    tablet: {
+      breakpoint: { max: 1024, min: 464 },
+      items: 2
+    },
+    mobile: {
+      breakpoint: { max: 464, min: 0 },
+      items: 1
+    }
+  };
+
   return (
     <>
       <div className={Style.section}>
@@ -19,10 +42,33 @@ const EHR = () => {
         </div>
       </div>
 
-      {/*<div className={Style.section}>
+      <div className={Style.container}>
+        <Carousel
+        responsive={responsive} infinite={true}>
+          <img src='https://beam.health/wp-content/uploads/2020/10/Image-29.jpg'></img>
+          <img src='https://beam.health/wp-content/uploads/2020/10/Image-41.jpg'></img>
+          <img src='https://beam.health/wp-content/uploads/2020/10/Image-44.jpg'></img>
+          <img src='https://beam.health/wp-content/uploads/2020/10/Image-45.jpg'></img>
+          <img src='https://beam.health/wp-content/uploads/2020/10/Image-46.jpg'></img>
+        </Carousel>
+      </div>
+
+      <div className={Style.section}>
         <h1 className={Style.title}>We Play Nice With Your EHR</h1>
         <p className={Style.subtitle}>A fully integrated suite of digital health features that will save your healthcare providers time.</p>
-      </div>*/}
+      </div>
+
+      <div className={Style.container}>
+        <Carousel responsive={responsive} infinite={true}>
+          <img src='https://beam.health/wp-content/uploads/2020/10/Image-52.jpg'></img>
+          <img src='https://beam.health/wp-content/uploads/2020/10/Image-51.jpg'></img>
+          <img src='https://beam.health/wp-content/uploads/2020/10/Image-50.jpg'></img>
+          <img src='https://beam.health/wp-content/uploads/2020/10/Image-49.jpg'></img>
+          <img src='https://beam.health/wp-content/uploads/2020/10/Image-48.jpg'></img>
+          <img src='https://beam.health/wp-content/uploads/2020/10/Image-47.jpg'></img>
+        </Carousel>
+      </div>
+
       <div className='row'>
         <div className='col'>
           <div className='craft-and-measure'>Craft and Measure the Patient Experience</div>
