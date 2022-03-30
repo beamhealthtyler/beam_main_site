@@ -120,7 +120,7 @@ class Home extends React.Component {
                     <div className='padding'>
                       <img className='beam-about-image sas'
                       src="https://beam.health/wp-content/uploads/2020/10/Sas-1-340x390.jpg"
-                      onmouseover="this.src='http://icons.iconarchive.com/icons/fasticon/angry-birds/128/red-bird-icon.png'"
+                      onMouseOver="this.src='http://icons.iconarchive.com/icons/fasticon/angry-birds/128/red-bird-icon.png'"
                       ></img>
                     </div>
                   </div>

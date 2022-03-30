@@ -1,6 +1,6 @@
 import { Outlet, Link, useNavigate } from "react-router-dom";
 import { Navbar, Container, NavDropdown, Nav, Dropdown} from 'react-bootstrap';
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
 const Layout = () => {
   let navigate = useNavigate();
@@ -29,15 +29,36 @@ const Layout = () => {
   let url = window.location.href
   url = url.slice(url.length - 4)
 
+  let listener = null
+  const [scrollState, setScrollState] = useState("transparent")
+
+ useEffect(() => {
+   listener = document.addEventListener("scroll", e => {
+     var scrolled = document.scrollingElement.scrollTop
+     if (scrolled >= 60) {
+       if (scrollState !== "amir") {
+         setScrollState("amir")
+       }
+     } else {
+       if (scrollState !== "transparent") {
+         setScrollState("transparent")
+       }
+     }
+   })
+   return () => {
+     document.removeEventListener("scroll", listener)
+   }
+ }, [scrollState])
+
   return (
     <>
-      <Navbar bg="light" expand="lg" className={url === 'home' ? 'transparent sticky' : 'sticky'}>
+      <Navbar bg="light" expand="lg" className={url === 'home' ? `${scrollState} sticky` : 'sticky'}>
         <Container>
           <Navbar.Brand onClick={() => navigate("/home")}>
           <img width="231" height="auto" alt="" title=""
           data-src="https://beam.health/wp-content/themes/beam-health/images/logo.png"
           className="logo-sticky ls-is-cached lazyloaded nav-img"
-          src="https://beam.health/wp-content/themes/beam-health/images/logo.png"></img>
+          src={(scrollState === "transparent" && url === 'home')  ? "https://beam.health/wp-content/themes/beam-health/images/logo-white.png" : "https://beam.health/wp-content/themes/beam-health/images/logo.png"}></img>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">

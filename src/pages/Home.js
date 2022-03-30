@@ -1,6 +1,6 @@
 import './Styles/Main.css';
 import { Helmet } from "react-helmet";
-import React from "react";
+import React, { useState, useEffect } from "react"
 
 class Home extends React.Component {
 
@@ -10,7 +10,6 @@ class Home extends React.Component {
     scale: false,
     intuitive: false
   }
-
 
   render() {
     return (

@@ -58,6 +58,7 @@ const EHR = () => {
         <p className={Style.subtitle}>A fully integrated suite of digital health features that will save your healthcare providers time.</p>
       </div>
 
+
       <div className={Style.container}>
         <Carousel responsive={responsive} infinite={true}>
           <img src='https://beam.health/wp-content/uploads/2020/10/Image-52.jpg'></img>
