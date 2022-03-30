@@ -303,9 +303,13 @@ a li {
 .beam-health-header-text {
   line-height: 1.5;
   font-size: 30px;
-  color: white;
+  color: white !important;
   padding-left: 50px;
   font-family: 'barlow';
+}
+
+.row > div > .beam-health-header-text > div{
+  color: white;
 }
 
 .beam-health-header-text div {
@@ -528,6 +532,11 @@ a li {
 }
 
 
+@media only screen and (max-width: 1200px) {
+  .row > div > .beam-health-header-text > div{
+    color: black;
+  }
+}
 
 @media only screen and (max-width: 800px) {
 
