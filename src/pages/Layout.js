@@ -42,9 +42,7 @@ const Layout = () => {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-
-
-             <Nav.Link onClick={() => navigate("/about")}>About Us</Nav.Link>
+             <Nav.Link className='navbar-about' onClick={() => navigate("/about")}>About Us</Nav.Link>
               <NavDropdown
                 title="Solutions +"
                id="collasible-nav-dropdown"
@@ -63,6 +61,7 @@ const Layout = () => {
               <NavDropdown
               title="Who We Help  +"
               id="collasible-nav-dropdown"
+              id='who-we-help-navbar'
               show={show2}
               onMouseEnter={showDropdown2}
               onMouseLeave={hideDropdown2}>
@@ -74,16 +73,17 @@ const Layout = () => {
               <NavDropdown
               title="Resources  +"
               id="collasible-nav-dropdown"
+              className='resources-navbar'
               show={show3}
               onMouseEnter={showDropdown3}
               onMouseLeave={hideDropdown3}>
                 {/*<NavDropdown.Item onClick={() => navigate("/blogs")}>Blogs</NavDropdown.Item>*/}
                 <NavDropdown.Item onClick={() => navigate("/ehr-integrations")}>EHR Integrations</NavDropdown.Item>
-                {/*<NavDropdown.Item onClick={() => navigate("/case-studies")}>Case Studies</NavDropdown.Item>*/}
+                <NavDropdown.Item onClick={() => navigate("/case-studies")}>Case Studies</NavDropdown.Item>
                 <NavDropdown.Item onClick={() => navigate("/state-telemedicine-policies")}>State Telemedicine Policies</NavDropdown.Item>
                 <NavDropdown.Item onClick={() => navigate("/telemedicine-reibursement")}>Telemedicine Reibursement</NavDropdown.Item>
-                {/*<NavDropdown.Item onClick={() => navigate("/faq")}>FAQ</NavDropdown.Item>*/}
-                {/*<NavDropdown.Item onClick={() => navigate("/beam-vs-others")}>Beam Vs Others</NavDropdown.Item>*/}
+                <NavDropdown.Item onClick={() => navigate("/faq")}>FAQ</NavDropdown.Item>
+                <NavDropdown.Item onClick={() => navigate("/beam-vs-others")}>Beam Vs Others</NavDropdown.Item>
               </NavDropdown>
             </Nav>
             <div className='callus'>Call us at (929) 226-0624</div>

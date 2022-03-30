@@ -112,10 +112,10 @@ class Home extends React.Component {
             </div>
           }
 
-          <div className='container'>
+          <div className='container about-us-container'>
             <div className="row section2">
               <h2 class='Executive'>Executive Team</h2>
-                <div className="col-md-4  pointer" onClick={ () => this.setState({sas: true})}>
+                <div className="col-md-4  pointer mobile-margin-bottom" onClick={ () => this.setState({sas: true})}>
                   <div className='backgroundBlock'>
                     <div className='padding'>
                       <img className='beam-about-image sas'
@@ -130,7 +130,7 @@ class Home extends React.Component {
                     <p>Read More</p>
                   </div>
                 </div>
-                <div className="col-md-4 pointer" onClick={ () => this.setState({ranga: true})}>
+                <div className="col-md-4 pointer mobile-margin-bottom" onClick={ () => this.setState({ranga: true})}>
                 <div className='backgroundBlock'>
                   <div className='padding'>
                   <img className='beam-about-image ran' src="https://beam.health/wp-content/uploads/2020/11/Ranga-340x390.jpg"></img>
@@ -142,7 +142,7 @@ class Home extends React.Component {
                     <p className='pointer'>Read More</p>
                   </div>
                 </div>
-                <div className="col-md-4 pointer" onClick={ () => this.setState({andrew: true})}>
+                <div className="col-md-4 pointer mobile-margin-bottom" onClick={ () => this.setState({andrew: true})}>
                 <div className='backgroundBlock'>
                   <div className='padding'>
                   <img className='beam-about-image andrew' src="https://beam.health/wp-content/uploads/2020/10/Drew-1-340x390.jpg"></img>

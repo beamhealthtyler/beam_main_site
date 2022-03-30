@@ -273,8 +273,15 @@ button{
     display: none;
   }
 
+  .mobile-margin-bottom {
+    margin-bottom: 50px;
+  }
+
   .about-featured {
     font-size: 45px;
+    text-align: center;
+    margin: 0px;
+    margin-bottom: 50px;
   }
 
   .overlay {
