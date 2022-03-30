@@ -18,7 +18,7 @@ function Footer() {
                 <Link to="online-payments"><li>Online Payments</li></Link>
                 <Link to="patient-intake"><li>Patient Intake</li></Link>
                 <Link to="telehealth-landing-page"><li>Telehealth</li></Link>
-                <Link to=""><li>Contact Us</li></Link>
+                {/*<Link to=""><li>Contact Us</li></Link>*/}
             </ul>
           </div>
           <div>
