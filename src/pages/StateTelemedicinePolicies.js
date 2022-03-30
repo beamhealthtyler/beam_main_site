@@ -1,12 +1,24 @@
 import Style from './Styles/StateTelemedicinePolicies.module.css'
 
 const StateTelemedicinePolicies = () => {
+
+  let toggle = (e) => {
+    if(e.target.classList.contains('main')) {
+     e.target.classList.remove('main');
+     e.target.classList.add('togglePurple');
+   } else {
+     e.target.classList.remove('togglePurple');
+     e.target.classList.add('main');
+   }
+    e.target.parentNode.lastChild.classList.toggle('toggle')
+  }
+
   return (
     <>
       <div className='container'>
         <div className={"row " + Style.section1}>
           <div className="col-md-6">
-            <h1 className='title'>Know where your state stands on telemedicine.</h1>
+            <h1 className='title mt-90'>Know where your state stands on telemedicine.</h1>
           </div>
           <div className="col-md-6">
             <img className='image1' src="https://beam.health/wp-content/uploads/2021/12/image-5-1.png"></img>
@@ -29,8 +41,22 @@ const StateTelemedicinePolicies = () => {
           </div>
           <div className="col-md-6">
             <div className={Style.section2TextContainer}>
-              <h1>Private Parity Laws</h1>
-              <h1>Medicare</h1>
+              <div>
+                <h1 className='main pointer' onClick={(e) => {toggle(e)}}>Private Parity Laws</h1>
+                <div className={"toggle " + Style.toggle}>
+                  <div className='state-p'><p>Each state has unique telemedicine laws in place for commercial insurance and Medicaid. While some states allow coverage for all telemedicine visits as if they were in-person, other states have criteria that must be satisfied in order to ensure coverage.</p>
+                  <p>It’s important to note that not all telemedicine is treated equally—we’ve tailored Beam to achieve the highest rate of reimbursement. Beam’s video chat feature fits the gold standard of reimbursement: we provide live, real-time, synchronous, HIPAA-compliant video capability.</p>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <h1 className='main pointer' onClick={(e) => {toggle(e)}}>Medicare</h1>
+                <div className={"toggle " + Style.toggle}>
+                  <div class='state-p'><p>EXPANSION OF TELEHEALTH WITH 1135 WAIVER: Under this new waiver, Medicare can pay for office, hospital, and other visits done via telehealth in all 50 states, including visits in which the patient is doing a real-time video appointment from their home starting March 6, 2020. Currently, there is no end date for this waiver. Learn more here.</p>
+                  <p>The map below is interactive; please click on any state you would like to know how telemedicine is reimbursed.</p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>

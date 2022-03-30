@@ -29,7 +29,31 @@
   width: 75%;
 }
 
+.section4 {
+  padding: 100px 0px;
+}
+
 @media only screen and (max-width: 800px) {
+
+  .center {
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    text-align: center;
+  }
+
+  .section2 h2{
+    text-align: center;
+  }
+
+  .mb_50 {
+    margin-bottom: 50px;
+  }
+
+  .section4 {
+    padding: 0px;
+  }
+
   .section2 {
     margin-top: 0px;
   }
@@ -45,5 +69,6 @@
   .section2 p {
     width: 75%;
     font-size: 20px;
+    text-align: center;
   }
 }

@@ -10,6 +10,10 @@
   list-style: none;
 }
 
+.container li {
+  color: white;
+}
+
 .unorderedList li {
   font-weight: 900;
   font-size: 20px;

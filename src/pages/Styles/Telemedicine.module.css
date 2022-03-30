@@ -71,3 +71,18 @@
   font-weight: 400 !important;
   text-align: center;
 }
+
+@media only screen and (max-width: 800px) {
+  .section2 {
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .section2 > div:nth-child(1){
+    margin-bottom: 50px;
+  }
+
+  .section1container{
+    text-align: center;
+  }
+}

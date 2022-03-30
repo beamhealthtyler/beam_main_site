@@ -61,6 +61,17 @@
 }
 
 @media only screen and (max-width: 800px) {
+
+  .unorderedList {
+    grid: none;
+  }
+
+  .title {
+    text-align: center;
+    font-size: 45px;
+    margin-top: 50px;
+  }
+
   .section {
     padding: 0px;
   }

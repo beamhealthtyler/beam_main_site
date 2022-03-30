@@ -104,7 +104,7 @@ const Layout = () => {
                 <NavDropdown.Item onClick={() => navigate("/state-telemedicine-policies")}>State Telemedicine Policies</NavDropdown.Item>
                 <NavDropdown.Item onClick={() => navigate("/telemedicine-reibursement")}>Telemedicine Reibursement</NavDropdown.Item>
                 <NavDropdown.Item onClick={() => navigate("/faq")}>FAQ</NavDropdown.Item>
-                <NavDropdown.Item onClick={() => navigate("/beam-vs-others")}>Beam Vs Others</NavDropdown.Item>
+                {/*<NavDropdown.Item onClick={() => navigate("/beam-vs-others")}>Beam Vs Others</NavDropdown.Item>*/}
               </NavDropdown>
             </Nav>
             <div className='callus'>Call us at (929) 226-0624</div>

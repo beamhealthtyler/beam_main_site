@@ -27,10 +27,10 @@ function Footer() {
 {/*              <Link to="/blogs"><li>Blog</li></Link>*/}
               <Link to="faq"><li>FAQ</li></Link>
               <Link to="ehr-integrations"><li>EHR Integrations</li></Link>
-              <Link to="beam-vs-others"><li>Beam vs Others</li></Link>
+              {/*<Link to="beam-vs-others"><li>Beam vs Others</li></Link>*/}
               <Link to="state-telemedicine-policies"><li>State Telemedicine Policies</li></Link>
               <Link to="telemedicine-reibursement"><li>Telemedicine Reimbursement</li></Link>
-              {/*<Link to="case-studies"><li>Case Studies</li></Link>*/}
+              <Link to="case-studies"><li>Case Studies</li></Link>
             </ul>
           </div>
           <div>
@@ -42,7 +42,7 @@ function Footer() {
             </ul>
           </div>
           <div>
-            <button type="button" className={"btn btn-secondary " + Style.red}>Request a Demo</button>
+            <button type="button" className={"btn btn-secondary " + Style.red}><Link to="/demo"><li>Request a Demo</li></Link></button>
           </div>
         </div>
       {/*  <div className={Style.background}>

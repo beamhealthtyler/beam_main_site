@@ -54,7 +54,7 @@ const EHR = () => {
       </div>
 
       <div className={Style.section}>
-        <h1 className={Style.title}>We Play Nice With Your EHR</h1>
+        <h1 className={Style.title + ' center'}>We Play Nice With Your EHR</h1>
         <p className={Style.subtitle}>A fully integrated suite of digital health features that will save your healthcare providers time.</p>
       </div>
 

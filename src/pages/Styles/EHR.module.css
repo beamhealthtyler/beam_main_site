@@ -13,10 +13,8 @@
 }
 
 .title {
-  font-size: 60px;
+  font-size: 70px;
   margin-bottom: 15px;
-  text-align: center;
-  color: black;
   font-weight: 600;
 }
 
@@ -50,4 +48,15 @@
   color: #9B9B9B;
   font-weight: 600;
   font-size: 18px;
+}
+
+@media only screen and (max-width: 800px) {
+
+  .title {
+    font-size: 45px;
+  }
+
+  .patientstextcontainer {
+      text-align: center;
+  }
 }

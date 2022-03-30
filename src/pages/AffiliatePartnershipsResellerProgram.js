@@ -7,7 +7,7 @@ const AffiliatePartnershipsResellerProgram = () => {
         <div className='container'>
           <div className="row">
             <div className="col-md-6">
-              <img className='image1' src="https://beam.health/wp-content/uploads/2021/12/image-4.png"></img>
+              <img className='image1 mb-20' src="https://beam.health/wp-content/uploads/2021/12/image-4.png"></img>
             </div>
             <div className={"col-md-6 " + Style.Stylesection1textcontainer}>
               <h1 className={Style.title}>Let’s grow the footprint of digital healthcare together.</h1>
