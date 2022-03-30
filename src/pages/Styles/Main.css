@@ -9,7 +9,7 @@
 button{
   background-color: #32374C !important;
   font-weight: 600 !important;
-  padding: 10px 20px !important;
+  padding: 10px 20px !importantf;
   font-size: 20px !important;
 }
 
@@ -19,6 +19,37 @@ button{
 
 #basic-navbar-nav a {
   color: black;
+}
+
+.main {
+
+}
+
+.togglePurple {
+  color: #867DE2;
+}
+
+@keyframes animation {
+  from {height: 0%;}
+  to {height: 100%}
+}
+
+.active:active {
+  height: animation;
+  animation-duration: 2s;
+}
+
+.toggle {
+  display: none;
+}
+
+/* .test > .description {
+  display: block;
+} */
+
+.navbar {
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 /* #basic-navbar-nav a:hover{
@@ -258,6 +289,10 @@ button{
   margin-bottom: 100px;
 }
 
+.description {
+  display: none;
+}
+
 .image {
   width: 100%;
 }
@@ -331,7 +366,25 @@ button{
   display: block;
 }
 
-/* Navbar */
+/* Navbar CSS*/
+
+
+/* The element to apply the animation to */
+/* div {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+
+} */
+
+@keyframes example {
+  from {width: 0%;}
+  to {width: 5.5%}
+}
+@keyframes example2 {
+  from {width: 0%;}
+  to {width: 100%}
+}
 
 .dropdown-menu.show {
   margin-left: -40px;
@@ -344,14 +397,15 @@ button{
 .navbar-about:hover:before{
   background: #FF536B 0% 0% no-repeat padding-box;
   content: '';
-  width: 55px;
-  height: 50px;
+  width: 5.5%;
+  margin-left: -4px;
+  height: 58px;
   z-index: -1;
   position: absolute;
-  bottom: 5px;
+  bottom: 17px;
   transform: skew(-20deg);
-  -webkit-animation: increase 1.5s ease;
-  -webkit-text-size-adjust: 100%;
+  animation-name: example;
+  animation-duration: 2s;
 }
 
 /* .solutions-about {
@@ -368,29 +422,30 @@ button{
 } */
 
 #who-we-help-navbar:hover:before {
+  left: 0px;
   background: #FFA253 0% 0% no-repeat padding-box;
   content: '';
-  width: 55px;
-  height: 50px;
+  width: 100%;
+  height: 58px;
   z-index: -1;
   position: absolute;
-  bottom: -5px;
-  /* left: 4px; */
+  bottom: -8px;
   transform: skew(-20deg);
-  -webkit-animation: increase 1.5s ease;
+  animation-name: example2;
+  animation-duration: 2s;
 }
 
 .resources-navbar:hover:before {
   background: #F2D160 0% 0% no-repeat padding-box;
   content: '';
-  width: 55px;
-  height: 50px;
+  width: 100%;
+  height: 58px;
   z-index: -1;
   position: absolute;
-  bottom: -5px;
-  /* left: 4px; */
+  bottom: -8px;
   transform: skew(-20deg);
-  -webkit-animation: increase 1.5s ease;
+  animation-name: example2;
+  animation-duration: 2s;
 }
 
 

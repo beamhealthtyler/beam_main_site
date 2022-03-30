@@ -17,6 +17,13 @@
   font-weight: 800;
 }
 
+.toggle p,
+.toggle ul,
+.toggle span {
+  font-weight: 400;
+  font-size: 25px;
+}
+
 .section2 > div > h1{
   margin-bottom: 20px;
 }
