@@ -632,6 +632,33 @@ a li {
 
 @media only screen and (max-width: 900px) {
 
+  .transparent {
+    background-color: white !important;
+    color: #34374A;
+  }
+
+  .transparent  {
+      font-weight: 400 !important;
+  }
+
+  .transparent .callus {
+    color: #34374A;
+    font-weight: 400 !important;
+  }
+
+  .transparent img {
+    content: url("https://beam.health/wp-content/themes/beam-health/images/logo.png")
+  }
+
+  .top {
+    margin-top: 50px;
+  }
+
+  .middle {
+    margin-top: 30px;
+    margin-bottom: 15px;
+  }
+
   .dropdown-menu:after {
     content: none;
   }
