@@ -70,8 +70,8 @@ const Layout = () => {
                show={show1}
                onMouseEnter={showDropdown1}
                onMouseLeave={hideDropdown1}
+               onClick={() => navigate("/solutions")}
                >
-                <NavDropdown.Item onClick={() => navigate("/solutions")}>Solutions</NavDropdown.Item>
                 <NavDropdown.Item onClick={() => navigate("/mentalhealth")}>Mental Health</NavDropdown.Item>
                 <NavDropdown.Item onClick={() => navigate("/patientengagement")}>Patient Engagement</NavDropdown.Item>
                 <NavDropdown.Item onClick={() => navigate("/telehealth-landing-page")}>Telehealth</NavDropdown.Item>
@@ -104,7 +104,7 @@ const Layout = () => {
                 <NavDropdown.Item onClick={() => navigate("/state-telemedicine-policies")}>State Telemedicine Policies</NavDropdown.Item>
                 <NavDropdown.Item onClick={() => navigate("/telemedicine-reibursement")}>Telemedicine Reibursement</NavDropdown.Item>
                 <NavDropdown.Item onClick={() => navigate("/faq")}>FAQ</NavDropdown.Item>
-                {/*<NavDropdown.Item onClick={() => navigate("/beam-vs-others")}>Beam Vs Others</NavDropdown.Item>*/}
+                <NavDropdown.Item onClick={() => navigate("/beam-vs-others")}>Beam Vs Others</NavDropdown.Item>
               </NavDropdown>
             </Nav>
             <div className='callus'>Call us at (929) 226-0624</div>

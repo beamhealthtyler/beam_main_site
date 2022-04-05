@@ -27,12 +27,48 @@ a li {
   list-style: none;
 }
 
+.beamhealth-image-container-beamvsus{
+
+}
+
 /* #root {
   overflow-x: hidden;
 } */
 
 #basic-navbar-nav a {
   color: black;
+}
+
+nav {
+  z-index: 10;
+}
+
+.triangleTop {
+  -webkit-clip-path: polygon(100% 100%, 0 100%, 0 0);
+  clip-path: polygon(100% 100%, 0 100%, 0 0);
+  height: 75px;
+  position: relative;
+  background-color: #FFEDE9;
+  margin-bottom: -1px;
+}
+
+.triangleBottom {
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 100%);
+  top: auto;
+  height: 75px;
+  background-color: #FFEDE9;
+  padding-bottom: 200px;
+  z-index: -2;
+}
+
+.triangleBottom::after{
+  content: '';
+  background: url("https://beam.health/wp-content/themes/beam-health/images/svg/square-detail-1.svg") no-repeat;
+  position: absolute;
+  right: 0;
+  width: 170px;
+  height: 200px;
 }
 
 
@@ -631,6 +667,17 @@ a li {
 
 
 @media only screen and (max-width: 900px) {
+
+  .triangleBottom{
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%);
+    top: auto;
+    height: 44px;
+    background-color: #FFEDE9;
+    padding-bottom: 250px;
+    z-index: -2;
+    margin-top: -1px;
+  }
 
   .transparent {
     background-color: white !important;

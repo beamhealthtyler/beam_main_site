@@ -27,7 +27,7 @@ function Footer() {
 {/*              <Link to="/blogs"><li>Blog</li></Link>*/}
               <Link to="faq"><li>FAQ</li></Link>
               <Link to="ehr-integrations"><li>EHR Integrations</li></Link>
-              {/*<Link to="beam-vs-others"><li>Beam vs Others</li></Link>*/}
+              <Link to="beam-vs-others"><li>Beam vs Others</li></Link>
               <Link to="state-telemedicine-policies"><li>State Telemedicine Policies</li></Link>
               <Link to="telemedicine-reibursement"><li>Telemedicine Reimbursement</li></Link>
               <Link to="case-studies"><li>Case Studies</li></Link>
