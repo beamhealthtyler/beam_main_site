@@ -45,13 +45,23 @@ function Footer() {
             <button type="button" className={"btn btn-secondary " + Style.red}><Link to="/demo"><li>Request a Demo</li></Link></button>
           </div>
         </div>
-      {/*  <div className={Style.background}>
-          <ul>
-            <li><i class="fa-brands fa-instagram"></i></li>
-            <li><i class="fa-brands fa-facebook-f"></i></li>
-            <li><i class="fa-brands fa-twitter"></i></li>
-          </ul>
+      {/*  <div className={Style.footer2}>
+          <div className={Style.background}>
+            <ul>
+              <li><i class="fa-brands fa-instagram"></i></li>
+              <li><i class="fa-brands fa-facebook-f"></i></li>
+              <li><i class="fa-brands fa-twitter"></i></li>
+            </ul>
+          </div>
+          <div className={Style.footerColor}>
+            <p>Join Our Newsletter</p>
+            <div className='flex'>
+              <input type="text" id="fname" name="fname" placeholder='Enter Email'></input>
+              <button><i class="fas fa-arrow-right"></i></button>
+            </div>
+          </div>
         </div>*/}
+
       </div>
       <Outlet />
     </>

@@ -14,6 +14,73 @@ const Patients = () => {
               <p>Companies that have either a network of affiliated providers or patients interested in virtual care make great partners with Beam.</p>
               <p>Patients who are looking to connect with a healthcare provider that is currently using Beam should refer their medical practice to access their unique Beam customer support team. All other patients can call (212) 547-9860 or complete the form below to find a clinic.</p>
               <p>Fill out the form below to be contacted by one of our Business Development Representatives</p>
+              <div className={'inputFormContainer ' + Style.patientInputContainer}>
+                <div className='row'>
+                  <div className='col-md-6 col-sm-12'>
+                    <div>
+                      <div className='flex'>
+                        <p>First Name</p><p className='astrisk'>*</p>
+                      </div>
+                      <input type='text' placeholder='John' className='inputformsmall'></input>
+                    </div>
+                  </div>
+                  <div className='col-md-6 col-sm-12'>
+                    <div>
+                      <div className='flex'>
+                        <p>Last Name</p><p className='astrisk'>*</p>
+                      </div>
+                      <input type='text' placeholder='Doe' className='inputformsmall'></input>
+                    </div>
+                  </div>
+                </div>
+                <div className='row'>
+                  <div className='col-md-6 col-sm-12'>
+                    <div>
+                      <div className='flex'>
+                        <p>Phone</p>
+                      </div>
+                      <input type='text' placeholder='E.g. +1 3004005000' className='inputformsmall'></input>
+                    </div>
+                  </div>
+                  <div className='col-md-6 col-sm-12'>
+                    <div>
+                      <div className='flex'>
+                        <p>Email</p><p className='astrisk'>*</p>
+                      </div>
+                      <input type='text' placeholder='E.g. john@doe.com' className='inputformsmall'></input>
+                    </div>
+                  </div>
+                </div>
+                <div className='row'>
+                  <div className='col-md-6 col-sm-12'>
+                    <div>
+                      <div className='flex'>
+                        <p>Chief Complaint</p>
+                      </div>
+                      <input type='text' placeholder='John Doe' className='inputformsmall'></input>
+                    </div>
+                  </div>
+                  <div className='col-md-6 col-sm-12'>
+                    <div>
+                      <div className='flex'>
+                        <p>State you are located in</p>
+                      </div>
+                      <input type='text' placeholder='E.g. California' className='inputformsmall'></input>
+                    </div>
+                  </div>
+                </div>
+                <div className='row'>
+                  <div className='col'>
+                    <div>
+                      <div className='flex'>
+                        <p>Type of provider</p>
+                      </div>
+                      <input type='text' placeholder='John Doe' className='inputformsmall'></input>
+                    </div>
+                  </div>
+                </div>
+                  <button type="button" className={"btn btn-secondary red submitformbutton"}>Submit</button>
+              </div>
             </div>
           </div>
         </div>
@@ -26,7 +93,6 @@ const Patients = () => {
 
       <div className='row'>
         <div className='col'>
-          <div className='craft-and-measure'>Craft and Measure the Patient Experience</div>
           <iframe src="https://meetings.hubspot.com/drew160/beam-health-demo?embed=true&amp;parentHubspotUtk=653dcb903fc615dc2dcbbcb3f3f109ec&amp;parentPageUrl=https://beam.health/request-a-free-demo/&amp;ab=undefined&amp;abStatus=undefined&amp;contentId=undefined" width="100%" style={{minWidth: "312px", minHeight: '516px', height: "756px", border: "none"}}></iframe>
         </div>
       </div>

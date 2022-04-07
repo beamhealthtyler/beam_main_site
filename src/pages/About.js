@@ -108,7 +108,10 @@ class Home extends React.Component {
                   <img className='modal-image' src='https://beam.health/wp-content/uploads/2020/10/Drew-1.jpg'></img>
                 </div>
                 <div className="modal-text-container">
-
+                <p>Andrew Jayakody</p>
+                <p>VP of Customer Success</p>
+                <p>Health System insider turned entrepreneur.</p>
+                <p>Drew spent a decade climbing the ladder of healthcare management at the Mount Sinai Health System in New York City. After managing practices in one of the nation’s top health systems (including during the COVID-19 pandemic), Drew brings experience from within the walls of a hospital system to Beam. He leads Beam’s account management team and is dedicated to helping our customers create thriving businesses.</p>
                 </div>
               </div>
             </div>

@@ -6,6 +6,13 @@
   margin-right: auto;
 }
 
+.patientInputContainer p{
+  margin-bottom: 4px;
+  font-size: 15px !important;
+  color: #1d5ed6 !important;
+  margin-top: 18px;
+}
+
 .title {
   margin-top: -20px;
   font-size: 60px;
@@ -54,4 +61,10 @@
   margin-right: auto;
   font-size: 25px;
   text-align: center;
+}
+
+@media only screen and (max-width: 800px) {
+  .patientInputContainer p{
+    margin-bottom: 5px;
+  }
 }

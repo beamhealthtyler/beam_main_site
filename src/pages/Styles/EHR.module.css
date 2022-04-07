@@ -2,6 +2,11 @@
   padding-top: 100px;
 }
 
+.EHRformMobile p{
+  margin-top: 15px;
+  margin-bottom: 0px;
+}
+
 .container {
   margin-top: 100px;
 }
@@ -58,5 +63,9 @@
 
   .patientstextcontainer {
       text-align: center;
+  }
+
+  .EHRformMobile p{
+    margin-top: 23px;
   }
 }

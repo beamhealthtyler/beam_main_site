@@ -2,6 +2,10 @@
   background: linear-gradient(135deg,rgb(89,206,255) 0%,rgb(134,125,226) 100%);
 }
 
+.AffliaiteInputMargin input {
+  margin-top: 3px;
+}
+
 .title {
   font-family: 'barlow';
   font-size: 55px;
@@ -58,5 +62,13 @@
   .section,
   .section2 {
     padding: 50px 25px;
+  }
+
+  .AffliaiteInputMargin input {
+    margin-top: 0px;
+  }
+
+  .Stylesection1textcontainer{
+    text-align: center;
   }
 }

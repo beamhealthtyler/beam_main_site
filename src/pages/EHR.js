@@ -37,6 +37,73 @@ const EHR = () => {
               <p>A fully integrated suite of digital health features that will save your healthcare providers time.</p>
               <p>We learned early on the importance of playing nice with others. Although it’s not required, we offer custom integrations to all major EHRs. Beam can connect to your EHR for integrated scheduling, billing, appointment history and length of visit data so providers can spend less time in their EHRs.</p>
               <p>Fill out the form below to be contacted by one of our Integration Specialists</p>
+              <div className={'inputFormContainer ' + Style.EHRformMobile}>
+                <div className='row'>
+                  <div className='col-md-6 col-sm-12'>
+                    <div>
+                      <div className='flex'>
+                        <p>First Name</p><p className='astrisk'>*</p>
+                      </div>
+                      <input type='text' placeholder='John' className='inputformsmall'></input>
+                    </div>
+                  </div>
+                  <div className='col-md-6 col-sm-12'>
+                    <div>
+                      <div className='flex'>
+                        <p>Last Name</p><p className='astrisk'>*</p>
+                      </div>
+                      <input type='text' placeholder='Doe' className='inputformsmall'></input>
+                    </div>
+                  </div>
+                </div>
+                <div className='row'>
+                  <div className='col-md-6 col-sm-12'>
+                    <div>
+                      <div className='flex'>
+                        <p>Phone</p>
+                      </div>
+                      <input type='text' placeholder='E.g. +1 3004005000' className='inputformsmall'></input>
+                    </div>
+                  </div>
+                  <div className='col-md-6 col-sm-12'>
+                    <div>
+                      <div className='flex'>
+                        <p>Email</p><p className='astrisk'>*</p>
+                      </div>
+                      <input type='text' placeholder='E.g. john@doe.com' className='inputformsmall'></input>
+                    </div>
+                  </div>
+                </div>
+                <div className='row'>
+                  <div className='col-md-6 col-sm-12'>
+                    <div>
+                      <div className='flex'>
+                        <p>Chief Complaint</p>
+                      </div>
+                      <input type='text' placeholder='John Doe' className='inputformsmall'></input>
+                    </div>
+                  </div>
+                  <div className='col-md-6 col-sm-12'>
+                    <div>
+                      <div className='flex'>
+                        <p>State you are located in</p>
+                      </div>
+                      <input type='text' placeholder='E.g. California' className='inputformsmall'></input>
+                    </div>
+                  </div>
+                </div>
+                <div className='row'>
+                  <div className='col'>
+                    <div>
+                      <div className='flex'>
+                        <p>Type of provider</p>
+                      </div>
+                      <input type='text' placeholder='John Doe' className='inputformsmall'></input>
+                    </div>
+                  </div>
+                </div>
+                  <button type="button" className={"btn btn-secondary red submitformbutton"}>Submit</button>
+              </div>
             </div>
           </div>
         </div>

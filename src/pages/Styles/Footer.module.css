@@ -6,6 +6,42 @@
   padding-top: 50px;
 }
 
+.footerColor p {
+  color: white;
+}
+
+.footer2 i {
+  color: white;
+}
+
+.footerColor input {
+  margin-top: 0px;
+  border-radius: 0px;
+  height: 40px;
+  background-color: #595F8F;
+  border: none !important;
+}
+
+.footerColor button {
+  height: 40px;
+  padding-bottom: 20px;
+}
+
+.footerColor input::placeholder {
+  color: white;
+}
+
+.footer2 {
+  background-color: #2C336E;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footerColor {
+  margin-top: -1px;
+  background-color: #2C336E;
+}
+
 .unorderedList {
   list-style: none;
 }
