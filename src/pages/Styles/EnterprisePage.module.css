@@ -4,6 +4,16 @@
   padding: 100px 0px;
 }
 
+.mt {
+  margin-top: 50px;
+}
+
+.title {
+  font-family: 'barlow';
+  font-size: 60px;
+  font-weight: 600;
+}
+
 .title3 {
   font-size: 45px !important;
   font-weight: 900;

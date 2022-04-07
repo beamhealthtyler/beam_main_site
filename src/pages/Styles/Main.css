@@ -31,9 +31,86 @@ a li {
 
 }
 
+.submitformbutton {
+  margin-top: 50px;
+  border-radius: 50px !important;
+  border: none;
+  padding: 25px 80px !important;
+  background-color: #ff536b !important;
+}
+
+.astrisk {
+  color: red !important;
+}
+
+.inputFormContainer .astrisk {
+  color: red !important;
+}
+
+.inputFormContainer p {
+  font-weight: 500 !important;
+}
+
+.flex {
+  display: flex;
+}
+
 /* #root {
   overflow-x: hidden;
 } */
+
+.LearnMoreButton {
+  color: white;
+  margin-top: 25px;
+  background: #59ceff !important;
+  border-color: #59ceff;
+  color: #ffffff;
+  font-size: 24px;
+  line-height: 24px;
+  font-family: Barlow;
+  border: none;
+  border-radius: 15px;
+  padding: 15px !important;
+}
+
+.patientengagementInput p{
+  margin-left: 0px !important;
+}
+
+.patientengagementInput{
+  margin-left: 50px;
+}
+
+.emailInput p {
+  font-size: 20px !important;
+}
+
+.inputformsmall {
+  margin-top: 2px;
+  display: block;
+  width: 100%;
+  padding: 12px;
+}
+
+.space_between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.inputFormContainer p {
+  margin-bottom: 8px;
+  font-size: 15px !important;
+  color: #1d5ed6 !important;
+}
+
+#fname {
+  display: block;
+  border: 1px solid lightgray;
+  border-radius: 15px;
+  width: 95%;
+  padding: 8px;
+  margin-top: -25px;
+}
 
 #basic-navbar-nav a {
   color: black;

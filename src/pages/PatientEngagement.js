@@ -18,6 +18,13 @@ const PatientEngagement = () => {
               <li>Grow your practice</li>
               <li>Save staff time</li>
             </ul>
+            <div className='patientengagementInput'>
+              <div className='emailInput'>
+                <p className="flex">Email <p className='astrisk'>*</p></p>
+                <input type="text" id="fname" name="fname"></input>
+                <button className='LearnMoreButton'>Learn More</button>
+              </div>
+            </div>
           </div>
         </div>
       </div>

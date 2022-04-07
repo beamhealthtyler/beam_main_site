@@ -37,6 +37,11 @@ class Home extends React.Component {
             <div className="row section1">
               <div className="col-md-6">
                 <h1 className='title'>The Future of Healthcare, Now</h1>
+                <div className='emailInput'>
+                  <p className="flex">Email <p className='astrisk'>*</p></p>
+                  <input type="text" id="fname" name="fname"></input>
+                  <button className='LearnMoreButton'>Learn More</button>
+                </div>
               </div>
               <div className="col-md-6">
                 <img className='image1' src="https://beam.health/wp-content/uploads/2021/12/group-video-enterprise-landing-page.png"></img>

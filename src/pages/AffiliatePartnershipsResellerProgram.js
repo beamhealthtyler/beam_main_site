@@ -13,6 +13,73 @@ const AffiliatePartnershipsResellerProgram = () => {
               <h1 className={Style.title}>Let’s grow the footprint of digital healthcare together.</h1>
               <p>Our partners bring more medical providers OR more patients to Beam, combining the power of their network with our technology to move healthcare forward.</p>
               <p>Fill out the form below to be contacted by one of our Business Development Representatives</p>
+              <div className='inputFormContainer'>
+                <div className='row'>
+                  <div className='col'>
+                    <div>
+                      <div className='flex'>
+                        <p>First Name</p><p className='astrisk'>*</p>
+                      </div>
+                      <input type='text' placeholder='John' className='inputformsmall'></input>
+                    </div>
+                  </div>
+                  <div className='col'>
+                    <div>
+                      <div className='flex'>
+                        <p>Last Name</p><p className='astrisk'>*</p>
+                      </div>
+                      <input type='text' placeholder='Doe' className='inputformsmall'></input>
+                    </div>
+                  </div>
+                </div>
+                <div className='row'>
+                  <div className='col'>
+                    <div>
+                      <div className='flex'>
+                        <p>Phone</p>
+                      </div>
+                      <input type='text' placeholder='E.g. +1 3004005000' className='inputformsmall'></input>
+                    </div>
+                  </div>
+                  <div className='col'>
+                    <div>
+                      <div className='flex'>
+                        <p>Email</p><p className='astrisk'>*</p>
+                      </div>
+                      <input type='text' placeholder='E.g. john@doe.com' className='inputformsmall'></input>
+                    </div>
+                  </div>
+                </div>
+                <div className='row'>
+                  <div className='col'>
+                    <div>
+                      <div className='flex'>
+                        <p>Chief Complaint</p>
+                      </div>
+                      <input type='text' placeholder='John Doe' className='inputformsmall'></input>
+                    </div>
+                  </div>
+                  <div className='col'>
+                    <div>
+                      <div className='flex'>
+                        <p>State you are located in</p>
+                      </div>
+                      <input type='text' placeholder='E.g. California' className='inputformsmall'></input>
+                    </div>
+                  </div>
+                </div>
+                <div className='row'>
+                  <div className='col'>
+                    <div>
+                      <div className='flex'>
+                        <p>Type of provider</p>
+                      </div>
+                      <input type='text' placeholder='John Doe' className='inputformsmall'></input>
+                    </div>
+                  </div>
+                </div>
+                  <button type="button" className={"btn btn-secondary red submitformbutton"}>Submit</button>
+              </div>
             </div>
           </div>
         </div>

@@ -6,8 +6,15 @@ const EnterprisePage = () => {
       <div className='container'>
         <div className={"row " + Style.section1} >
           <div className="col-md-6">
-            <h1 className='title'>Engineered To Scale With Practices Of All Sizes</h1>
+            <h1 className={Style.title}>Engineered To Scale With Practices Of All Sizes</h1>
             <p>Generate more revenue, simplify workflows, and connect with patients using the one and only telehealth platform built for healthcare enterprises.</p>
+            <div className={Style.mt}>
+              <div className='emailInput'>
+                <p className="flex">Email <p className='astrisk'>*</p></p>
+                <input type="text" id="fname" name="fname"></input>
+                <button className='LearnMoreButton'>Learn More</button>
+              </div>
+            </div>
           </div>
           <div className="col-md-6">
             <img className='image1' src="https://beam.health/wp-content/uploads/2021/11/enterprise-landing-page-header-image.png"></img>

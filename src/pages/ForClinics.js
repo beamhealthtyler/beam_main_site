@@ -8,6 +8,11 @@ const ForClinics = () => {
           <div className={"row " + Style.section} >
             <div className="col-md-6">
               <h1 className={Style.title}>Learn what thousands of medical practices already know</h1>
+              <div className='emailInput'>
+                <p className="flex">Email <p className='astrisk'>*</p></p>
+                <input type="text" id="fname" name="fname"></input>
+                <button className='LearnMoreButton'>Learn More</button>
+              </div>
             </div>
             <div className="col-md-6">
               <img className='image1' src="https://beam.health/wp-content/uploads/2021/12/image-3.png"></img>
