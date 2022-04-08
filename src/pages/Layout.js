@@ -50,6 +50,14 @@ const Layout = () => {
    }
  }, [scrollState])
 
+ let solutions = (e) => {
+        console.log('here')
+   // if(e.target === e.currentTarget) {
+   //
+   //   navigate("/solutions")
+   // }
+ }
+
   return (
     <>
       <Navbar bg="light" expand="lg" className={url === 'home' ? `${scrollState} sticky` : 'sticky'}>
@@ -70,7 +78,7 @@ const Layout = () => {
                show={show1}
                onMouseEnter={showDropdown1}
                onMouseLeave={hideDropdown1}
-               onClick={() => navigate("/solutions")}
+               onClick={(e) => {if(e.target.innerHTML === 'Solutions +'){navigate("/solutions")}}}
                >
                 <NavDropdown.Item onClick={() => navigate("/mentalhealth")}>Mental Health</NavDropdown.Item>
                 <NavDropdown.Item onClick={() => navigate("/patientengagement")}>Patient Engagement</NavDropdown.Item>

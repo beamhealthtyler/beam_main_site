@@ -1,4 +1,5 @@
 import Style from './Styles/EnterprisePage.module.css'
+import { Link } from "react-router-dom";
 
 const EnterprisePage = () => {
   return (
@@ -90,6 +91,9 @@ const EnterprisePage = () => {
               <p className={Style.section3subtitle}>Make your patient a partner-in-care. Instantly send test results through our HIPAA-compliant channels.</p>
             </div>
           </div>
+        </div>
+        <div className={'row ' + Style.button}>
+            <Link to='/demo'><button type="button" class="btn btn-secondary homeButton">Learn More</button></Link>
         </div>
       </div>
 

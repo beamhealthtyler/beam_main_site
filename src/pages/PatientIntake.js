@@ -10,6 +10,11 @@ const PatientIntake = () => {
             <div className="col-md-6">
               <h1 className={Style.title}>Streamline Patient Registration</h1>
               <p>Eliminate clipboards with digital patient intake forms from your homepage</p>
+              <div className='emailInput'>
+                <p className="flex">Email <p className='astrisk'>*</p></p>
+                <input type="text" id="fname" name="fname"></input>
+                <button className='LearnMoreButton'>Learn More</button>
+              </div>
             </div>
             <div className="col-md-6">
               <img className='image1' src="https://beam.health/wp-content/uploads/2021/12/mental-health-header-image.png"></img>

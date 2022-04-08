@@ -30,7 +30,7 @@ class Home extends React.Component {
               <div className="beam-health-header-text">
                 <div>Whether you are a new practice trying to acquire patients or a healthcare enterprise with thousands of clinicians, you need a fail-proof way to see patients remotely.</div>
                 <div>You can use Beam’s telehealth functionality for free, right now! Try your own mock telehealth visit below.</div>
-                <a href='https://providers.beam.health/revenue-calculator/?utm_source=home+page&utm_medium=home+page+email+-+revenue+calc&utm_campaign=home+page+email+collection+revenue+calc&utm_id=home+page+email+collect+-+revenue+calc' target='_bank'>
+                <a href='https://demo.beam.health/demo/login/' target='_bank'>
                   <button type="button" className="btn btn-secondary homeButton" >Try Beam Free</button>
                 </a>
 

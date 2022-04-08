@@ -23,6 +23,11 @@ const FAQ = () => {
           </div>
           <div className="col-md-6">
             <h1 className='title'>You have questions, we have answers</h1>
+            <div className='emailInput'>
+              <p className="flex">Email <p className='astrisk'>*</p></p>
+              <input type="text" id="fname" name="fname"></input>
+              <button className={'LearnMoreButton ' + Style.boxshadow}>Learn More</button>
+            </div>
           </div>
         </div>
         <div className={"row " + Style.section2}>

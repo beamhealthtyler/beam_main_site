@@ -49,6 +49,9 @@ const OnlinePayments = () => {
               </div>
             </div>
           </div>
+          <div className={'row ' + Style.OnlinePaymentButton}>
+            <Link to='/demo'><button type="button" class="btn btn-secondary homeButton">Learn More</button></Link>
+          </div>
         </div>
 
       </div>

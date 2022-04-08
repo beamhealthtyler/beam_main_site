@@ -23,7 +23,7 @@ const MentalHealth = () => {
         <div className="col-md-6">
           <h1 className={Style.subTitle}>Try Beam’s telehealth functionality for free, right now!</h1>
           <p className={Style.text}>Enter a mock telehealth visit with a member of our Customer Service team.</p>
-          <Link to='/demo'><button className={Style.blueButton + ' ' + Style.solutionsButton}>Try Now</button></Link>
+          <a href='https://demo.beam.health/demo/login/?utm_source=mental+health+page&utm_medium=website&utm_campaign=live+demo&utm_id=Live+demo' target='_blank'><button className={Style.blueButton + ' ' + Style.solutionsButton}>Try Now</button></a>
         </div>
         <div className="col-md-6">
           <img className={Style.image} src="https://beam.health/wp-content/uploads/2021/12/mental-health-header-image.png"></img>

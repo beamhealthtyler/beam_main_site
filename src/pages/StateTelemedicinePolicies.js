@@ -42,7 +42,7 @@ const StateTelemedicinePolicies = () => {
           <div className="col-md-6">
             <div className={Style.section2TextContainer}>
               <div>
-                <h1 className='main pointer' onClick={(e) => {toggle(e)}}>Private Parity Laws</h1>
+                <h1 className='main pointer' onClick={(e) => {toggle(e)}}>Private Parity Laws +</h1>
                 <div className={"toggle " + Style.toggle}>
                   <div className='state-p'><p>Each state has unique telemedicine laws in place for commercial insurance and Medicaid. While some states allow coverage for all telemedicine visits as if they were in-person, other states have criteria that must be satisfied in order to ensure coverage.</p>
                   <p>It’s important to note that not all telemedicine is treated equally—we’ve tailored Beam to achieve the highest rate of reimbursement. Beam’s video chat feature fits the gold standard of reimbursement: we provide live, real-time, synchronous, HIPAA-compliant video capability.</p>
@@ -50,7 +50,7 @@ const StateTelemedicinePolicies = () => {
                 </div>
               </div>
               <div>
-                <h1 className='main pointer' onClick={(e) => {toggle(e)}}>Medicare</h1>
+                <h1 className='main pointer' onClick={(e) => {toggle(e)}}>Medicare +</h1>
                 <div className={"toggle " + Style.toggle}>
                   <div class='state-p'><p>EXPANSION OF TELEHEALTH WITH 1135 WAIVER: Under this new waiver, Medicare can pay for office, hospital, and other visits done via telehealth in all 50 states, including visits in which the patient is doing a real-time video appointment from their home starting March 6, 2020. Currently, there is no end date for this waiver. Learn more here.</p>
                   <p>The map below is interactive; please click on any state you would like to know how telemedicine is reimbursed.</p>

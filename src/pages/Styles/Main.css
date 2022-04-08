@@ -16,7 +16,7 @@ button{
 
 button.react-multiple-carousel__arrow.react-multiple-carousel__arrow--left,
 button.react-multiple-carousel__arrow.react-multiple-carousel__arrow--right {
-  z-index: -1;
+  /* z-index: -1; */
 }
 
 a {
@@ -69,8 +69,8 @@ a li {
   line-height: 24px;
   font-family: Barlow;
   border: none;
-  border-radius: 15px;
-  padding: 15px !important;
+  border-radius: 20px;
+  padding: 15px 30px !important;
 }
 
 .patientengagementInput p{
@@ -875,4 +875,33 @@ nav {
   .flip {
     flex-direction: column-reverse;
   }
+
+  .demo-text-container {
+    padding-top: 50px;
+    padding-left: 0px;
+    text-align: center;
+  }
+
+  .demo-text-text{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+  .LearnMoreButton {
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 100%;
+  }
+
+  #fname {
+    width: 100%;
+  }
+
+  .patientengagementInput{
+      margin-left: 0px;
+  }
+
 }

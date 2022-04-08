@@ -7,6 +7,10 @@
   margin-top: 100px;
 }
 
+.boxshadow {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
 .backgroundImg {
   background: url(https://beam.health/wp-content/uploads/2021/12/image-6.png) no-repeat;
   background-position-x: right;
@@ -30,8 +34,19 @@
 
 
 @media only screen and (max-width: 800px) {
+  .section2 > div > h1 {
+    text-align: left !important;
+  }
+
   .section2 {
-    text-align: center;
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-top: 0px;
+    padding-top: 0px;
+    text-align: left;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
   }
   .section2 p{
     font-size: 25px;
