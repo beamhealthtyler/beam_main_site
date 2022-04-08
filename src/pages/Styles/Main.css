@@ -589,11 +589,18 @@ nav {
 }
 
 .dropdown-menu.show {
-  margin-left: -40px;
+  margin-left: -100px;
+  width: 300px;
 }
 
+.resources-navbar .show a,
+.dropdown-menu.show a {
+  padding: 12px 0px;
+}
+
+.dropdown-menu.show,
 .resources-navbar .show {
-  margin-left: -65px;
+
 }
 
 .navbar-about:hover:before{
