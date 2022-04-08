@@ -24,7 +24,7 @@ function Footer() {
           <div>
             <ul className={Style.unorderedList2}>
               <li>Resources</li>
-{/*              <Link to="/blogs"><li>Blog</li></Link>*/}
+              {/*<Link to="/blogs"><li>Blog</li></Link>*/}
               <Link to="faq"><li>FAQ</li></Link>
               <Link to="ehr-integrations"><li>EHR Integrations</li></Link>
               <Link to="beam-vs-others"><li>Beam vs Others</li></Link>
@@ -45,12 +45,12 @@ function Footer() {
             <button type="button" className={"btn btn-secondary " + Style.red}><Link to="/demo"><li>Request a Demo</li></Link></button>
           </div>
         </div>
-      {/*  <div className={Style.footer2}>
+        <div className={Style.footer2}>
           <div className={Style.background}>
             <ul>
-              <li><i class="fa-brands fa-instagram"></i></li>
-              <li><i class="fa-brands fa-facebook-f"></i></li>
-              <li><i class="fa-brands fa-twitter"></i></li>
+              <li><a target="_blank" rel="noopener" href="https://www.instagram.com/beam.health/"><i class="fa-brands fa-instagram"></i></a></li>
+              <li><a target="_blank" rel="noopener" href="https://www.facebook.com/beamhealthgroup/"><i class="fa-brands fa-facebook-f"></i></a></li>
+              <li><a target="_blank" rel="noopener" href="https://twitter.com/BeamHealth"><i class="fa-brands fa-twitter"></i></a></li>
             </ul>
           </div>
           <div className={Style.footerColor}>
@@ -60,7 +60,17 @@ function Footer() {
               <button><i class="fas fa-arrow-right"></i></button>
             </div>
           </div>
-        </div>*/}
+        </div>
+        <div className={Style.rightsReserved}>
+          <div>
+            <p>All Rights Reserved. Beam Health, Inc</p>
+            <div className='flex'>
+              <p><a href="https://beam.health/privacy-policy/" target="_blank">Privacy Policy</a></p>
+              <p className={Style.privacyPolicy}>|</p>
+              <p><a href="https://beam.health/terms-and-conditions/" target="_blank">Terms and Conditions</a></p>
+            </div>
+          </div>
+        </div>
 
       </div>
       <Outlet />

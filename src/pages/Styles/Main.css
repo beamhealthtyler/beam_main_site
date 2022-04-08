@@ -747,6 +747,16 @@ nav {
 
 @media only screen and (max-width: 900px) {
 
+  .sticky {
+    margin-top: -10px;
+    margin-right: -10px;
+  }
+
+  .navbar-toggler {
+    background-color: #F8F9FA !important;
+    border: none;
+  }
+
   .submitformbutton {
     margin-left: auto;
     margin-right: auto;
@@ -764,13 +774,26 @@ nav {
     margin-top: -1px;
   }
 
+/*
   .transparent {
-    background-color: white !important;
+    background-color: transparent !important;
     color: #34374A;
+  }
+*/
+
+  .transparent .navbar-toggler {
+    background-color: transparent !important;
+  }
+
+  .transparent .show {
+    height: 325px;
+    overflow: hidden;
   }
 
   .transparent  {
       font-weight: 400 !important;
+      margin-top: -10px;
+      box-shadow: none;
   }
 
   .transparent .callus {
@@ -779,7 +802,7 @@ nav {
   }
 
   .transparent img {
-    content: url("https://beam.health/wp-content/themes/beam-health/images/logo.png")
+    content: url("https://beam.health/wp-content/themes/beam-health/images/logo-white.png")
   }
 
   .top {

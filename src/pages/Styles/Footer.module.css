@@ -6,8 +6,52 @@
   padding-top: 50px;
 }
 
+.socialIcons {
+  font-size: 0;
+  border-radius: 50%;
+  background-color: #565c8f;
+  padding: 20px;
+  display: inline-block;
+  z-index: -2;
+}
+
+.rightsReserved {
+  position: relative;
+  background-color: #2C336E;
+}
+
+.privacyPolicy {
+  margin: 0px 10px;
+}
+
+.rightsReserved a {
+  color: white;
+}
+
+.rightsReserved > div{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 30px;
+}
+
+.rightsReserved p {
+  margin-bottom: -10px;
+  color: white;
+  font-size: 15px;
+}
+
 .footerColor p {
   color: white;
+  font-weight: 900;
+}
+
+.footerColor {
+  margin-right: 30px;
+}
+
+.footer2 input {
+  color: white;
+  background-color: #5A5E8E;
 }
 
 .footer2 i {
@@ -15,20 +59,24 @@
 }
 
 .footerColor input {
-  margin-top: 0px;
-  border-radius: 0px;
-  height: 40px;
+  margin-top: 0px !important;
+  border-radius: 0px !important;
+  padding: 20px !important;
+  padding-right: 0px !important;
+  height: 50px;
   background-color: #595F8F;
   border: none !important;
 }
 
 .footerColor button {
-  height: 40px;
-  padding-bottom: 20px;
+  color: #595F8F;
+  border: 20px;
+  background-color: #53C1F8 !important;
 }
 
 .footerColor input::placeholder {
   color: white;
+  font-weight: 900;
 }
 
 .footer2 {
@@ -106,6 +154,39 @@
 }
 
 @media only screen and (max-width: 800px) {
+
+  .rightsReserved > div {
+    display: block;
+  }
+  .rightsReserved p {
+    padding: 10px 0px;
+    text-align: center;
+  }
+
+  .background > ul {
+    display: flex;
+    justify-content: center !important;
+  }
+
+  .footer2 {
+    margin-top: -2px;
+    display: block;
+    padding-bottom: 30px;
+  }
+
+  .footerColor p {
+    text-align: center;
+    margin: 10px 0px;
+  }
+
+  .footerColor {
+    margin: 0px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
   .container > div:nth-child(1) {
       flex-wrap: wrap;
       justify-content: center;
